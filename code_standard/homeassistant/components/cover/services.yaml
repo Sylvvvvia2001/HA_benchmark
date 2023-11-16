@@ -1,0 +1,273 @@
+? ''
+: default_value
+close_cover:
+  ? ''
+  : default_value
+  metadata:
+    last_updated: '2023-11-16T10:18:22.616597'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: cover
+      metadata:
+        last_updated: '2023-11-16T10:18:22.616597'
+        version: '1.0'
+      supported_features:
+      - cover.CoverEntityFeature.CLOSE
+    metadata:
+      last_updated: '2023-11-16T10:18:22.616597'
+      version: '1.0'
+close_cover_tilt:
+  ? ''
+  : default_value
+  metadata:
+    last_updated: '2023-11-16T10:18:22.616597'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: cover
+      metadata:
+        last_updated: '2023-11-16T10:18:22.616597'
+        version: '1.0'
+      supported_features:
+      - cover.CoverEntityFeature.CLOSE_TILT
+    metadata:
+      last_updated: '2023-11-16T10:18:22.616597'
+      version: '1.0'
+metadata:
+  last_updated: '2023-11-16T10:18:22.616597'
+  version: '1.0'
+open_cover:
+  ? ''
+  : default_value
+  metadata:
+    last_updated: '2023-11-16T10:18:22.616597'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: cover
+      metadata:
+        last_updated: '2023-11-16T10:18:22.616597'
+        version: '1.0'
+      supported_features:
+      - cover.CoverEntityFeature.OPEN
+    metadata:
+      last_updated: '2023-11-16T10:18:22.616597'
+      version: '1.0'
+open_cover_tilt:
+  ? ''
+  : default_value
+  metadata:
+    last_updated: '2023-11-16T10:18:22.616597'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: cover
+      metadata:
+        last_updated: '2023-11-16T10:18:22.616597'
+        version: '1.0'
+      supported_features:
+      - cover.CoverEntityFeature.OPEN_TILT
+    metadata:
+      last_updated: '2023-11-16T10:18:22.616597'
+      version: '1.0'
+set_cover_position:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    metadata:
+      last_updated: '2023-11-16T10:18:22.616597'
+      version: '1.0'
+    position:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:22.616597'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.616597'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 100
+          metadata:
+            last_updated: '2023-11-16T10:18:22.616597'
+            version: '1.0'
+          min: 0
+          unit_of_measurement: '%'
+  metadata:
+    last_updated: '2023-11-16T10:18:22.616597'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: cover
+      metadata:
+        last_updated: '2023-11-16T10:18:22.616597'
+        version: '1.0'
+      supported_features:
+      - cover.CoverEntityFeature.SET_POSITION
+    metadata:
+      last_updated: '2023-11-16T10:18:22.616597'
+      version: '1.0'
+set_cover_tilt_position:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    metadata:
+      last_updated: '2023-11-16T10:18:22.616597'
+      version: '1.0'
+    tilt_position:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:22.616597'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.616597'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 100
+          metadata:
+            last_updated: '2023-11-16T10:18:22.616597'
+            version: '1.0'
+          min: 0
+          unit_of_measurement: '%'
+  metadata:
+    last_updated: '2023-11-16T10:18:22.616597'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: cover
+      metadata:
+        last_updated: '2023-11-16T10:18:22.616597'
+        version: '1.0'
+      supported_features:
+      - cover.CoverEntityFeature.SET_TILT_POSITION
+    metadata:
+      last_updated: '2023-11-16T10:18:22.616597'
+      version: '1.0'
+stop_cover:
+  ? ''
+  : default_value
+  metadata:
+    last_updated: '2023-11-16T10:18:22.616597'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: cover
+      metadata:
+        last_updated: '2023-11-16T10:18:22.616597'
+        version: '1.0'
+      supported_features:
+      - cover.CoverEntityFeature.STOP
+    metadata:
+      last_updated: '2023-11-16T10:18:22.616597'
+      version: '1.0'
+stop_cover_tilt:
+  ? ''
+  : default_value
+  metadata:
+    last_updated: '2023-11-16T10:18:22.616597'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: cover
+      metadata:
+        last_updated: '2023-11-16T10:18:22.616597'
+        version: '1.0'
+      supported_features:
+      - cover.CoverEntityFeature.STOP_TILT
+    metadata:
+      last_updated: '2023-11-16T10:18:22.616597'
+      version: '1.0'
+toggle:
+  ? ''
+  : default_value
+  metadata:
+    last_updated: '2023-11-16T10:18:22.616597'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: cover
+      metadata:
+        last_updated: '2023-11-16T10:18:22.616597'
+        version: '1.0'
+      supported_features:
+      - - cover.CoverEntityFeature.CLOSE
+        - cover.CoverEntityFeature.OPEN
+    metadata:
+      last_updated: '2023-11-16T10:18:22.616597'
+      version: '1.0'
+toggle_cover_tilt:
+  ? ''
+  : default_value
+  metadata:
+    last_updated: '2023-11-16T10:18:22.616597'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: cover
+      metadata:
+        last_updated: '2023-11-16T10:18:22.616597'
+        version: '1.0'
+      supported_features:
+      - - cover.CoverEntityFeature.CLOSE_TILT
+        - cover.CoverEntityFeature.OPEN_TILT
+    metadata:
+      last_updated: '2023-11-16T10:18:22.616597'
+      version: '1.0'

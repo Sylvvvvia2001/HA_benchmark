@@ -1,0 +1,51 @@
+? ''
+: default_value
+metadata:
+  last_updated: '2023-11-16T10:18:23.494774'
+  version: '1.0'
+send_text_command:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    command:
+      ? ''
+      : default_value
+      example: turn off kitchen TV
+      metadata:
+        last_updated: '2023-11-16T10:18:23.494774'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.494774'
+          version: '1.0'
+        text: null
+    media_player:
+      ? ''
+      : default_value
+      example: media_player.living_room_speaker
+      metadata:
+        last_updated: '2023-11-16T10:18:23.494774'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        entity:
+          ? ''
+          : default_value
+          domain: media_player
+          metadata:
+            last_updated: '2023-11-16T10:18:23.494774'
+            version: '1.0'
+        metadata:
+          last_updated: '2023-11-16T10:18:23.494774'
+          version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:23.494774'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:23.494774'
+    version: '1.0'

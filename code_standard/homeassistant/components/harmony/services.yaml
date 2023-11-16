@@ -1,0 +1,72 @@
+? ''
+: default_value
+change_channel:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    channel:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:23.614958'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.614958'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 100000
+          metadata:
+            last_updated: '2023-11-16T10:18:23.614958'
+            version: '1.0'
+          min: 1
+    metadata:
+      last_updated: '2023-11-16T10:18:23.614958'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:23.614958'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: remote
+      integration: harmony
+      metadata:
+        last_updated: '2023-11-16T10:18:23.614958'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:23.614958'
+      version: '1.0'
+metadata:
+  last_updated: '2023-11-16T10:18:23.614958'
+  version: '1.0'
+sync:
+  ? ''
+  : default_value
+  metadata:
+    last_updated: '2023-11-16T10:18:23.614958'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: remote
+      integration: harmony
+      metadata:
+        last_updated: '2023-11-16T10:18:23.614958'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:23.614958'
+      version: '1.0'

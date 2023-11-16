@@ -1,0 +1,270 @@
+? ''
+: default_value
+add_event:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    calendar_id:
+      ? ''
+      : default_value
+      example: Your email
+      metadata:
+        last_updated: '2023-11-16T10:18:23.464559'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.464559'
+          version: '1.0'
+        text: null
+    description:
+      ? ''
+      : default_value
+      example: Birthday bowling
+      metadata:
+        last_updated: '2023-11-16T10:18:23.464559'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.464559'
+          version: '1.0'
+        text: null
+    end_date:
+      ? ''
+      : default_value
+      example: '2019-03-11'
+      metadata:
+        last_updated: '2023-11-16T10:18:23.464559'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.464559'
+          version: '1.0'
+        text: null
+    end_date_time:
+      ? ''
+      : default_value
+      example: '2019-03-22 22:00:00'
+      metadata:
+        last_updated: '2023-11-16T10:18:23.464559'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.464559'
+          version: '1.0'
+        text: null
+    in:
+      ? ''
+      : default_value
+      example: '"days": 2 or "weeks": 2'
+      metadata:
+        last_updated: '2023-11-16T10:18:23.464559'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.464559'
+          version: '1.0'
+        object: null
+    metadata:
+      last_updated: '2023-11-16T10:18:23.464559'
+      version: '1.0'
+    start_date:
+      ? ''
+      : default_value
+      example: '2019-03-10'
+      metadata:
+        last_updated: '2023-11-16T10:18:23.464559'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.464559'
+          version: '1.0'
+        text: null
+    start_date_time:
+      ? ''
+      : default_value
+      example: '2019-03-22 20:00:00'
+      metadata:
+        last_updated: '2023-11-16T10:18:23.464559'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.464559'
+          version: '1.0'
+        text: null
+    summary:
+      ? ''
+      : default_value
+      example: Bowling
+      metadata:
+        last_updated: '2023-11-16T10:18:23.464559'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.464559'
+          version: '1.0'
+        text: null
+  metadata:
+    last_updated: '2023-11-16T10:18:23.464559'
+    version: '1.0'
+create_event:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    description:
+      ? ''
+      : default_value
+      example: Birthday bowling
+      metadata:
+        last_updated: '2023-11-16T10:18:23.464559'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.464559'
+          version: '1.0'
+        text: null
+    end_date:
+      ? ''
+      : default_value
+      example: '2022-03-11'
+      metadata:
+        last_updated: '2023-11-16T10:18:23.464559'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.464559'
+          version: '1.0'
+        text: null
+    end_date_time:
+      ? ''
+      : default_value
+      example: '2022-03-22 22:00:00'
+      metadata:
+        last_updated: '2023-11-16T10:18:23.464559'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.464559'
+          version: '1.0'
+        text: null
+    in:
+      ? ''
+      : default_value
+      example: '"days": 2 or "weeks": 2'
+      metadata:
+        last_updated: '2023-11-16T10:18:23.464559'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.464559'
+          version: '1.0'
+        object: null
+    location:
+      ? ''
+      : default_value
+      example: Conference Room - F123, Bldg. 002
+      metadata:
+        last_updated: '2023-11-16T10:18:23.464559'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.464559'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:23.464559'
+      version: '1.0'
+    start_date:
+      ? ''
+      : default_value
+      example: '2022-03-10'
+      metadata:
+        last_updated: '2023-11-16T10:18:23.464559'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.464559'
+          version: '1.0'
+        text: null
+    start_date_time:
+      ? ''
+      : default_value
+      example: '2022-03-22 20:00:00'
+      metadata:
+        last_updated: '2023-11-16T10:18:23.464559'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.464559'
+          version: '1.0'
+        text: null
+    summary:
+      ? ''
+      : default_value
+      example: Bowling
+      metadata:
+        last_updated: '2023-11-16T10:18:23.464559'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.464559'
+          version: '1.0'
+        text: null
+  metadata:
+    last_updated: '2023-11-16T10:18:23.464559'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: calendar
+      integration: google
+      metadata:
+        last_updated: '2023-11-16T10:18:23.464559'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:23.464559'
+      version: '1.0'
+metadata:
+  last_updated: '2023-11-16T10:18:23.464559'
+  version: '1.0'

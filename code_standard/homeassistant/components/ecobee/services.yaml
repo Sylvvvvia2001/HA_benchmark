@@ -1,0 +1,480 @@
+? ''
+: default_value
+create_vacation:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    cool_temp:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:22.866588'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.866588'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 95
+          metadata:
+            last_updated: '2023-11-16T10:18:22.866588'
+            version: '1.0'
+          min: 7
+          step: 0.5
+          unit_of_measurement: "\u63B3"
+    end_date:
+      ? ''
+      : default_value
+      example: '2019-03-20'
+      metadata:
+        last_updated: '2023-11-16T10:18:22.866588'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.866588'
+          version: '1.0'
+        text: null
+    end_time:
+      ? ''
+      : default_value
+      example: '20:00:00'
+      metadata:
+        last_updated: '2023-11-16T10:18:22.866588'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.866588'
+          version: '1.0'
+        time: null
+    entity_id:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:22.866588'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        entity:
+          ? ''
+          : default_value
+          domain: climate
+          integration: ecobee
+          metadata:
+            last_updated: '2023-11-16T10:18:22.866588'
+            version: '1.0'
+        metadata:
+          last_updated: '2023-11-16T10:18:22.866588'
+          version: '1.0'
+    fan_min_on_time:
+      ? ''
+      : default_value
+      default: 0
+      metadata:
+        last_updated: '2023-11-16T10:18:22.866588'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.866588'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 60
+          metadata:
+            last_updated: '2023-11-16T10:18:22.866588'
+            version: '1.0'
+          min: 0
+          unit_of_measurement: minutes
+    fan_mode:
+      ? ''
+      : default_value
+      default: auto
+      metadata:
+        last_updated: '2023-11-16T10:18:22.866588'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.866588'
+          version: '1.0'
+        select:
+          ? ''
+          : default_value
+          metadata:
+            last_updated: '2023-11-16T10:18:22.866588'
+            version: '1.0'
+          options:
+          - auto
+          - 'on'
+    heat_temp:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:22.866588'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.866588'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 95
+          metadata:
+            last_updated: '2023-11-16T10:18:22.866588'
+            version: '1.0'
+          min: 7
+          step: 0.5
+          unit_of_measurement: "\u63B3"
+    metadata:
+      last_updated: '2023-11-16T10:18:22.866588'
+      version: '1.0'
+    start_date:
+      ? ''
+      : default_value
+      example: '2019-03-15'
+      metadata:
+        last_updated: '2023-11-16T10:18:22.866588'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.866588'
+          version: '1.0'
+        text: null
+    start_time:
+      ? ''
+      : default_value
+      example: '20:00:00'
+      metadata:
+        last_updated: '2023-11-16T10:18:22.866588'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.866588'
+          version: '1.0'
+        time: null
+    vacation_name:
+      ? ''
+      : default_value
+      example: Skiing
+      metadata:
+        last_updated: '2023-11-16T10:18:22.866588'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.866588'
+          version: '1.0'
+        text: null
+  metadata:
+    last_updated: '2023-11-16T10:18:22.866588'
+    version: '1.0'
+delete_vacation:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    entity_id:
+      ? ''
+      : default_value
+      example: climate.kitchen
+      metadata:
+        last_updated: '2023-11-16T10:18:22.866588'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        entity:
+          ? ''
+          : default_value
+          domain: climate
+          integration: ecobee
+          metadata:
+            last_updated: '2023-11-16T10:18:22.866588'
+            version: '1.0'
+        metadata:
+          last_updated: '2023-11-16T10:18:22.866588'
+          version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.866588'
+      version: '1.0'
+    vacation_name:
+      ? ''
+      : default_value
+      example: Skiing
+      metadata:
+        last_updated: '2023-11-16T10:18:22.866588'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.866588'
+          version: '1.0'
+        text: null
+  metadata:
+    last_updated: '2023-11-16T10:18:22.866588'
+    version: '1.0'
+metadata:
+  last_updated: '2023-11-16T10:18:22.866588'
+  version: '1.0'
+resume_program:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    entity_id:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:22.866588'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        entity:
+          ? ''
+          : default_value
+          domain: climate
+          integration: ecobee
+          metadata:
+            last_updated: '2023-11-16T10:18:22.866588'
+            version: '1.0'
+        metadata:
+          last_updated: '2023-11-16T10:18:22.866588'
+          version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.866588'
+      version: '1.0'
+    resume_all:
+      ? ''
+      : default_value
+      default: false
+      metadata:
+        last_updated: '2023-11-16T10:18:22.866588'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        boolean: null
+        metadata:
+          last_updated: '2023-11-16T10:18:22.866588'
+          version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:22.866588'
+    version: '1.0'
+set_dst_mode:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    dst_enabled:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:22.866588'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        boolean: null
+        metadata:
+          last_updated: '2023-11-16T10:18:22.866588'
+          version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.866588'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:22.866588'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: climate
+      integration: ecobee
+      metadata:
+        last_updated: '2023-11-16T10:18:22.866588'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.866588'
+      version: '1.0'
+set_fan_min_on_time:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    entity_id:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:22.866588'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        entity:
+          ? ''
+          : default_value
+          domain: climate
+          integration: ecobee
+          metadata:
+            last_updated: '2023-11-16T10:18:22.866588'
+            version: '1.0'
+        metadata:
+          last_updated: '2023-11-16T10:18:22.866588'
+          version: '1.0'
+    fan_min_on_time:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:22.866588'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.866588'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 60
+          metadata:
+            last_updated: '2023-11-16T10:18:22.866588'
+            version: '1.0'
+          min: 0
+          unit_of_measurement: minutes
+    metadata:
+      last_updated: '2023-11-16T10:18:22.866588'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:22.866588'
+    version: '1.0'
+set_mic_mode:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    metadata:
+      last_updated: '2023-11-16T10:18:22.866588'
+      version: '1.0'
+    mic_enabled:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:22.866588'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        boolean: null
+        metadata:
+          last_updated: '2023-11-16T10:18:22.866588'
+          version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:22.866588'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: climate
+      integration: ecobee
+      metadata:
+        last_updated: '2023-11-16T10:18:22.866588'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.866588'
+      version: '1.0'
+set_occupancy_modes:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    auto_away:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:22.866588'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        boolean: null
+        metadata:
+          last_updated: '2023-11-16T10:18:22.866588'
+          version: '1.0'
+    follow_me:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:22.866588'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        boolean: null
+        metadata:
+          last_updated: '2023-11-16T10:18:22.866588'
+          version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.866588'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:22.866588'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: climate
+      integration: ecobee
+      metadata:
+        last_updated: '2023-11-16T10:18:22.866588'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.866588'
+      version: '1.0'

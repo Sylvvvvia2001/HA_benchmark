@@ -1,0 +1,180 @@
+? ''
+: default_value
+metadata:
+  last_updated: '2023-11-16T10:18:23.572864'
+  version: '1.0'
+pair_sensor:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    device_id:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:23.572864'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        device:
+          ? ''
+          : default_value
+          integration: guardian
+          metadata:
+            last_updated: '2023-11-16T10:18:23.572864'
+            version: '1.0'
+        metadata:
+          last_updated: '2023-11-16T10:18:23.572864'
+          version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:23.572864'
+      version: '1.0'
+    uid:
+      ? ''
+      : default_value
+      example: 5410EC688BCF
+      metadata:
+        last_updated: '2023-11-16T10:18:23.572864'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.572864'
+          version: '1.0'
+        text: null
+  metadata:
+    last_updated: '2023-11-16T10:18:23.572864'
+    version: '1.0'
+unpair_sensor:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    device_id:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:23.572864'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        device:
+          ? ''
+          : default_value
+          integration: guardian
+          metadata:
+            last_updated: '2023-11-16T10:18:23.572864'
+            version: '1.0'
+        metadata:
+          last_updated: '2023-11-16T10:18:23.572864'
+          version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:23.572864'
+      version: '1.0'
+    uid:
+      ? ''
+      : default_value
+      example: 5410EC688BCF
+      metadata:
+        last_updated: '2023-11-16T10:18:23.572864'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.572864'
+          version: '1.0'
+        text: null
+  metadata:
+    last_updated: '2023-11-16T10:18:23.572864'
+    version: '1.0'
+upgrade_firmware:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    device_id:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:23.572864'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        device:
+          ? ''
+          : default_value
+          integration: guardian
+          metadata:
+            last_updated: '2023-11-16T10:18:23.572864'
+            version: '1.0'
+        metadata:
+          last_updated: '2023-11-16T10:18:23.572864'
+          version: '1.0'
+    filename:
+      ? ''
+      : default_value
+      example: latest.bin
+      metadata:
+        last_updated: '2023-11-16T10:18:23.572864'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.572864'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:23.572864'
+      version: '1.0'
+    port:
+      ? ''
+      : default_value
+      example: 443
+      metadata:
+        last_updated: '2023-11-16T10:18:23.572864'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.572864'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 65535
+          metadata:
+            last_updated: '2023-11-16T10:18:23.572864'
+            version: '1.0'
+          min: 1
+    url:
+      ? ''
+      : default_value
+      example: https://repo.guardiancloud.services/gvc/fw
+      metadata:
+        last_updated: '2023-11-16T10:18:23.572864'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.572864'
+          version: '1.0'
+        text: null
+  metadata:
+    last_updated: '2023-11-16T10:18:23.572864'
+    version: '1.0'

@@ -1,0 +1,136 @@
+? ''
+: default_value
+blink_update: null
+metadata:
+  last_updated: '2023-11-16T10:18:22.272269'
+  version: '1.0'
+save_recent_clips:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    file_path:
+      ? ''
+      : default_value
+      example: /tmp
+      metadata:
+        last_updated: '2023-11-16T10:18:22.272269'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.272269'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:22.272269'
+      version: '1.0'
+    name:
+      ? ''
+      : default_value
+      example: Living Room
+      metadata:
+        last_updated: '2023-11-16T10:18:22.272269'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.272269'
+          version: '1.0'
+        text: null
+  metadata:
+    last_updated: '2023-11-16T10:18:22.272269'
+    version: '1.0'
+save_video:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    filename:
+      ? ''
+      : default_value
+      example: /tmp/video.mp4
+      metadata:
+        last_updated: '2023-11-16T10:18:22.272269'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.272269'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:22.272269'
+      version: '1.0'
+    name:
+      ? ''
+      : default_value
+      example: Living Room
+      metadata:
+        last_updated: '2023-11-16T10:18:22.272269'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.272269'
+          version: '1.0'
+        text: null
+  metadata:
+    last_updated: '2023-11-16T10:18:22.272269'
+    version: '1.0'
+send_pin:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    metadata:
+      last_updated: '2023-11-16T10:18:22.272269'
+      version: '1.0'
+    pin:
+      ? ''
+      : default_value
+      example: abc123
+      metadata:
+        last_updated: '2023-11-16T10:18:22.272269'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.272269'
+          version: '1.0'
+        text: null
+  metadata:
+    last_updated: '2023-11-16T10:18:22.272269'
+    version: '1.0'
+trigger_camera:
+  ? ''
+  : default_value
+  metadata:
+    last_updated: '2023-11-16T10:18:22.272269'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: camera
+      integration: blink
+      metadata:
+        last_updated: '2023-11-16T10:18:22.272269'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.272269'
+      version: '1.0'

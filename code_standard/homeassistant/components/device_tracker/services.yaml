@@ -1,0 +1,129 @@
+? ''
+: default_value
+metadata:
+  last_updated: '2023-11-16T10:18:22.725976'
+  version: '1.0'
+see:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    battery:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:22.725976'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.725976'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 100
+          metadata:
+            last_updated: '2023-11-16T10:18:22.725976'
+            version: '1.0'
+          min: 0
+          unit_of_measurement: '%'
+    dev_id:
+      ? ''
+      : default_value
+      example: phonedave
+      metadata:
+        last_updated: '2023-11-16T10:18:22.725976'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.725976'
+          version: '1.0'
+        text: null
+    gps:
+      ? ''
+      : default_value
+      example: '[51.509802, -0.086692]'
+      metadata:
+        last_updated: '2023-11-16T10:18:22.725976'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.725976'
+          version: '1.0'
+        object: null
+    gps_accuracy:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:22.725976'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.725976'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 100
+          metadata:
+            last_updated: '2023-11-16T10:18:22.725976'
+            version: '1.0'
+          min: 1
+          unit_of_measurement: '%'
+    host_name:
+      ? ''
+      : default_value
+      example: Dave
+      metadata:
+        last_updated: '2023-11-16T10:18:22.725976'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.725976'
+          version: '1.0'
+        text: null
+    location_name:
+      ? ''
+      : default_value
+      example: home
+      metadata:
+        last_updated: '2023-11-16T10:18:22.725976'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.725976'
+          version: '1.0'
+        text: null
+    mac:
+      ? ''
+      : default_value
+      example: FF:FF:FF:FF:FF:FF
+      metadata:
+        last_updated: '2023-11-16T10:18:22.725976'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.725976'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:22.725976'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:22.725976'
+    version: '1.0'

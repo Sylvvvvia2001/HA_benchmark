@@ -1,0 +1,122 @@
+? ''
+: default_value
+metadata:
+  last_updated: '2023-11-16T10:18:22.237309'
+  version: '1.0'
+reload: null
+toggle:
+  ? ''
+  : default_value
+  metadata:
+    last_updated: '2023-11-16T10:18:22.237309'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: automation
+      metadata:
+        last_updated: '2023-11-16T10:18:22.237309'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.237309'
+      version: '1.0'
+trigger:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    metadata:
+      last_updated: '2023-11-16T10:18:22.237309'
+      version: '1.0'
+    skip_condition:
+      ? ''
+      : default_value
+      default: true
+      metadata:
+        last_updated: '2023-11-16T10:18:22.237309'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        boolean: null
+        metadata:
+          last_updated: '2023-11-16T10:18:22.237309'
+          version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:22.237309'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: automation
+      metadata:
+        last_updated: '2023-11-16T10:18:22.237309'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.237309'
+      version: '1.0'
+turn_off:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    metadata:
+      last_updated: '2023-11-16T10:18:22.237309'
+      version: '1.0'
+    stop_actions:
+      ? ''
+      : default_value
+      default: true
+      metadata:
+        last_updated: '2023-11-16T10:18:22.237309'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        boolean: null
+        metadata:
+          last_updated: '2023-11-16T10:18:22.237309'
+          version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:22.237309'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: automation
+      metadata:
+        last_updated: '2023-11-16T10:18:22.237309'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.237309'
+      version: '1.0'
+turn_on:
+  ? ''
+  : default_value
+  metadata:
+    last_updated: '2023-11-16T10:18:22.237309'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: automation
+      metadata:
+        last_updated: '2023-11-16T10:18:22.237309'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.237309'
+      version: '1.0'

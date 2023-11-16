@@ -1,0 +1,140 @@
+? ''
+: default_value
+load_url:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    metadata:
+      last_updated: '2023-11-16T10:18:23.400813'
+      version: '1.0'
+    url:
+      ? ''
+      : default_value
+      example: https://home-assistant.io
+      metadata:
+        last_updated: '2023-11-16T10:18:23.400813'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.400813'
+          version: '1.0'
+        text: null
+  metadata:
+    last_updated: '2023-11-16T10:18:23.400813'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    device:
+      ? ''
+      : default_value
+      integration: fully_kiosk
+      metadata:
+        last_updated: '2023-11-16T10:18:23.400813'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:23.400813'
+      version: '1.0'
+metadata:
+  last_updated: '2023-11-16T10:18:23.400813'
+  version: '1.0'
+set_config:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    key:
+      ? ''
+      : default_value
+      example: motionSensitivity
+      metadata:
+        last_updated: '2023-11-16T10:18:23.400813'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.400813'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:23.400813'
+      version: '1.0'
+    value:
+      ? ''
+      : default_value
+      example: '90'
+      metadata:
+        last_updated: '2023-11-16T10:18:23.400813'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.400813'
+          version: '1.0'
+        text: null
+  metadata:
+    last_updated: '2023-11-16T10:18:23.400813'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    device:
+      ? ''
+      : default_value
+      integration: fully_kiosk
+      metadata:
+        last_updated: '2023-11-16T10:18:23.400813'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:23.400813'
+      version: '1.0'
+start_application:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    application:
+      ? ''
+      : default_value
+      example: de.ozerov.fully
+      metadata:
+        last_updated: '2023-11-16T10:18:23.400813'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.400813'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:23.400813'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:23.400813'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    device:
+      ? ''
+      : default_value
+      integration: fully_kiosk
+      metadata:
+        last_updated: '2023-11-16T10:18:23.400813'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:23.400813'
+      version: '1.0'

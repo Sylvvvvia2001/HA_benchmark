@@ -1,0 +1,109 @@
+? ''
+: default_value
+clear_traffic_statistics:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    metadata:
+      last_updated: '2023-11-16T10:18:24.018612'
+      version: '1.0'
+    url:
+      ? ''
+      : default_value
+      example: http://192.168.100.1/
+      metadata:
+        last_updated: '2023-11-16T10:18:24.018612'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:24.018612'
+          version: '1.0'
+        text: null
+  metadata:
+    last_updated: '2023-11-16T10:18:24.018612'
+    version: '1.0'
+metadata:
+  last_updated: '2023-11-16T10:18:24.018612'
+  version: '1.0'
+reboot:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    metadata:
+      last_updated: '2023-11-16T10:18:24.018612'
+      version: '1.0'
+    url:
+      ? ''
+      : default_value
+      example: http://192.168.100.1/
+      metadata:
+        last_updated: '2023-11-16T10:18:24.018612'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:24.018612'
+          version: '1.0'
+        text: null
+  metadata:
+    last_updated: '2023-11-16T10:18:24.018612'
+    version: '1.0'
+resume_integration:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    metadata:
+      last_updated: '2023-11-16T10:18:24.018612'
+      version: '1.0'
+    url:
+      ? ''
+      : default_value
+      example: http://192.168.100.1/
+      metadata:
+        last_updated: '2023-11-16T10:18:24.018612'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:24.018612'
+          version: '1.0'
+        text: null
+  metadata:
+    last_updated: '2023-11-16T10:18:24.018612'
+    version: '1.0'
+suspend_integration:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    metadata:
+      last_updated: '2023-11-16T10:18:24.018612'
+      version: '1.0'
+    url:
+      ? ''
+      : default_value
+      example: http://192.168.100.1/
+      metadata:
+        last_updated: '2023-11-16T10:18:24.018612'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:24.018612'
+          version: '1.0'
+        text: null
+  metadata:
+    last_updated: '2023-11-16T10:18:24.018612'
+    version: '1.0'

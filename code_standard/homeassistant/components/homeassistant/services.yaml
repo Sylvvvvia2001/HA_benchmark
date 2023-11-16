@@ -1,0 +1,212 @@
+? ''
+: default_value
+check_config: null
+metadata:
+  last_updated: '2023-11-16T10:18:23.795669'
+  version: '1.0'
+reload_all: null
+reload_config_entry:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    entry_id:
+      ? ''
+      : default_value
+      advanced: true
+      example: 8955375327824e14ba89e4b29cc3ec9a
+      metadata:
+        last_updated: '2023-11-16T10:18:23.795669'
+        version: '1.0'
+      required: false
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.795669'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:23.795669'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:23.795669'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    device:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:23.795669'
+        version: '1.0'
+    entity:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:23.795669'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:23.795669'
+      version: '1.0'
+reload_core_config: null
+reload_custom_templates: null
+restart: null
+save_persistent_states: null
+set_location:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    elevation:
+      ? ''
+      : default_value
+      example: 120
+      metadata:
+        last_updated: '2023-11-16T10:18:23.795669'
+        version: '1.0'
+      required: false
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.795669'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          metadata:
+            last_updated: '2023-11-16T10:18:23.795669'
+            version: '1.0'
+          mode: box
+          step: any
+    latitude:
+      ? ''
+      : default_value
+      example: 32.87336
+      metadata:
+        last_updated: '2023-11-16T10:18:23.795669'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.795669'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 90
+          metadata:
+            last_updated: '2023-11-16T10:18:23.795669'
+            version: '1.0'
+          min: -90
+          mode: box
+          step: any
+    longitude:
+      ? ''
+      : default_value
+      example: 117.22743
+      metadata:
+        last_updated: '2023-11-16T10:18:23.795669'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.795669'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 180
+          metadata:
+            last_updated: '2023-11-16T10:18:23.795669'
+            version: '1.0'
+          min: -180
+          mode: box
+          step: any
+    metadata:
+      last_updated: '2023-11-16T10:18:23.795669'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:23.795669'
+    version: '1.0'
+stop: null
+toggle:
+  ? ''
+  : default_value
+  metadata:
+    last_updated: '2023-11-16T10:18:23.795669'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:23.795669'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:23.795669'
+      version: '1.0'
+turn_off:
+  ? ''
+  : default_value
+  metadata:
+    last_updated: '2023-11-16T10:18:23.795669'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:23.795669'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:23.795669'
+      version: '1.0'
+turn_on:
+  ? ''
+  : default_value
+  metadata:
+    last_updated: '2023-11-16T10:18:23.795669'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:23.795669'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:23.795669'
+      version: '1.0'
+update_entity:
+  ? ''
+  : default_value
+  metadata:
+    last_updated: '2023-11-16T10:18:23.795669'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:23.795669'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:23.795669'
+      version: '1.0'

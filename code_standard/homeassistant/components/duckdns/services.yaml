@@ -1,0 +1,32 @@
+? ''
+: default_value
+metadata:
+  last_updated: '2023-11-16T10:18:22.788440'
+  version: '1.0'
+set_txt:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    metadata:
+      last_updated: '2023-11-16T10:18:22.788440'
+      version: '1.0'
+    txt:
+      ? ''
+      : default_value
+      example: This domain name is reserved for use in documentation
+      metadata:
+        last_updated: '2023-11-16T10:18:22.788440'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.788440'
+          version: '1.0'
+        text: null
+  metadata:
+    last_updated: '2023-11-16T10:18:22.788440'
+    version: '1.0'

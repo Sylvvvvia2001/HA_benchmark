@@ -1,0 +1,100 @@
+? ''
+: default_value
+metadata:
+  last_updated: '2023-11-16T10:18:22.569734'
+  version: '1.0'
+process:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    agent_id:
+      ? ''
+      : default_value
+      example: homeassistant
+      metadata:
+        last_updated: '2023-11-16T10:18:22.569734'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        conversation_agent: null
+        metadata:
+          last_updated: '2023-11-16T10:18:22.569734'
+          version: '1.0'
+    language:
+      ? ''
+      : default_value
+      example: NL
+      metadata:
+        last_updated: '2023-11-16T10:18:22.569734'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.569734'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:22.569734'
+      version: '1.0'
+    text:
+      ? ''
+      : default_value
+      example: Turn all lights on
+      metadata:
+        last_updated: '2023-11-16T10:18:22.569734'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.569734'
+          version: '1.0'
+        text: null
+  metadata:
+    last_updated: '2023-11-16T10:18:22.569734'
+    version: '1.0'
+reload:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    agent_id:
+      ? ''
+      : default_value
+      example: homeassistant
+      metadata:
+        last_updated: '2023-11-16T10:18:22.569734'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        conversation_agent: null
+        metadata:
+          last_updated: '2023-11-16T10:18:22.569734'
+          version: '1.0'
+    language:
+      ? ''
+      : default_value
+      example: NL
+      metadata:
+        last_updated: '2023-11-16T10:18:22.569734'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.569734'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:22.569734'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:22.569734'
+    version: '1.0'

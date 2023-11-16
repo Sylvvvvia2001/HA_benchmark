@@ -1,0 +1,341 @@
+? ''
+: default_value
+activate_eco_mode_with_duration:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    accesspoint_id:
+      ? ''
+      : default_value
+      example: 3014xxxxxxxxxxxxxxxxxxxx
+      metadata:
+        last_updated: '2023-11-16T10:18:23.890393'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.890393'
+          version: '1.0'
+        text: null
+    duration:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:23.890393'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.890340'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 1440
+          metadata:
+            last_updated: '2023-11-16T10:18:23.890340'
+            version: '1.0'
+          min: 1
+          unit_of_measurement: minutes
+    metadata:
+      last_updated: '2023-11-16T10:18:23.890393'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:23.890393'
+    version: '1.0'
+activate_eco_mode_with_period:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    accesspoint_id:
+      ? ''
+      : default_value
+      example: 3014xxxxxxxxxxxxxxxxxxxx
+      metadata:
+        last_updated: '2023-11-16T10:18:23.890393'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.890393'
+          version: '1.0'
+        text: null
+    endtime:
+      ? ''
+      : default_value
+      example: 2019-02-17 14:00
+      metadata:
+        last_updated: '2023-11-16T10:18:23.890393'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.890393'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:23.890393'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:23.890393'
+    version: '1.0'
+activate_vacation:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    accesspoint_id:
+      ? ''
+      : default_value
+      example: 3014xxxxxxxxxxxxxxxxxxxx
+      metadata:
+        last_updated: '2023-11-16T10:18:23.890558'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.890393'
+          version: '1.0'
+        text: null
+    endtime:
+      ? ''
+      : default_value
+      example: 2019-09-17 14:00
+      metadata:
+        last_updated: '2023-11-16T10:18:23.890393'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.890393'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:23.890558'
+      version: '1.0'
+    temperature:
+      ? ''
+      : default_value
+      default: 18
+      metadata:
+        last_updated: '2023-11-16T10:18:23.890393'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.890393'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 55
+          metadata:
+            last_updated: '2023-11-16T10:18:23.890393'
+            version: '1.0'
+          min: 0
+          step: 0.5
+          unit_of_measurement: "\u63B3"
+  metadata:
+    last_updated: '2023-11-16T10:18:23.890558'
+    version: '1.0'
+deactivate_eco_mode:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    accesspoint_id:
+      ? ''
+      : default_value
+      example: 3014xxxxxxxxxxxxxxxxxxxx
+      metadata:
+        last_updated: '2023-11-16T10:18:23.890558'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.890558'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:23.890558'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:23.890558'
+    version: '1.0'
+deactivate_vacation:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    accesspoint_id:
+      ? ''
+      : default_value
+      example: 3014xxxxxxxxxxxxxxxxxxxx
+      metadata:
+        last_updated: '2023-11-16T10:18:23.890558'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.890558'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:23.890558'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:23.890558'
+    version: '1.0'
+dump_hap_config:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    anonymize:
+      ? ''
+      : default_value
+      default: true
+      metadata:
+        last_updated: '2023-11-16T10:18:23.890652'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        boolean: null
+        metadata:
+          last_updated: '2023-11-16T10:18:23.890652'
+          version: '1.0'
+    config_output_file_prefix:
+      ? ''
+      : default_value
+      default: hmip-config
+      example: hmip-config
+      metadata:
+        last_updated: '2023-11-16T10:18:23.890652'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.890652'
+          version: '1.0'
+        text: null
+    config_output_path:
+      ? ''
+      : default_value
+      example: /config
+      metadata:
+        last_updated: '2023-11-16T10:18:23.890652'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.890652'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:23.890652'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:23.890652'
+    version: '1.0'
+metadata:
+  last_updated: '2023-11-16T10:18:23.890652'
+  version: '1.0'
+reset_energy_counter:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    entity_id:
+      ? ''
+      : default_value
+      example: switch.livingroom
+      metadata:
+        last_updated: '2023-11-16T10:18:23.890652'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.890652'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:23.890652'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:23.890652'
+    version: '1.0'
+set_active_climate_profile:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    climate_profile_index:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:23.890652'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.890652'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 100
+          metadata:
+            last_updated: '2023-11-16T10:18:23.890652'
+            version: '1.0'
+          min: 1
+    entity_id:
+      ? ''
+      : default_value
+      example: climate.livingroom
+      metadata:
+        last_updated: '2023-11-16T10:18:23.890652'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.890652'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:23.890652'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:23.890652'
+    version: '1.0'

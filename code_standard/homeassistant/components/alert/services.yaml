@@ -1,0 +1,62 @@
+? ''
+: default_value
+metadata:
+  last_updated: '2023-11-16T10:18:22.085680'
+  version: '1.0'
+toggle:
+  ? ''
+  : default_value
+  metadata:
+    last_updated: '2023-11-16T10:18:22.085680'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: alert
+      metadata:
+        last_updated: '2023-11-16T10:18:22.085680'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.085680'
+      version: '1.0'
+turn_off:
+  ? ''
+  : default_value
+  metadata:
+    last_updated: '2023-11-16T10:18:22.085680'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: alert
+      metadata:
+        last_updated: '2023-11-16T10:18:22.085680'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.085680'
+      version: '1.0'
+turn_on:
+  ? ''
+  : default_value
+  metadata:
+    last_updated: '2023-11-16T10:18:22.085680'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: alert
+      metadata:
+        last_updated: '2023-11-16T10:18:22.085680'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.085680'
+      version: '1.0'

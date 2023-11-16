@@ -1,0 +1,433 @@
+? ''
+: default_value
+change_setting:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    device_id:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:23.964018'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        device:
+          ? ''
+          : default_value
+          integration: home_connect
+          metadata:
+            last_updated: '2023-11-16T10:18:23.964018'
+            version: '1.0'
+        metadata:
+          last_updated: '2023-11-16T10:18:23.964018'
+          version: '1.0'
+    key:
+      ? ''
+      : default_value
+      example: BSH.Common.Setting.ChildLock
+      metadata:
+        last_updated: '2023-11-16T10:18:23.964018'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.964018'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:23.964018'
+      version: '1.0'
+    value:
+      ? ''
+      : default_value
+      example: 'true'
+      metadata:
+        last_updated: '2023-11-16T10:18:23.964018'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.964018'
+          version: '1.0'
+        object: null
+  metadata:
+    last_updated: '2023-11-16T10:18:23.964018'
+    version: '1.0'
+metadata:
+  last_updated: '2023-11-16T10:18:23.964018'
+  version: '1.0'
+pause_program:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    device_id:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:23.964018'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        device:
+          ? ''
+          : default_value
+          integration: home_connect
+          metadata:
+            last_updated: '2023-11-16T10:18:23.964018'
+            version: '1.0'
+        metadata:
+          last_updated: '2023-11-16T10:18:23.964018'
+          version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:23.964018'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:23.964018'
+    version: '1.0'
+resume_program:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    device_id:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:23.964018'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        device:
+          ? ''
+          : default_value
+          integration: home_connect
+          metadata:
+            last_updated: '2023-11-16T10:18:23.964018'
+            version: '1.0'
+        metadata:
+          last_updated: '2023-11-16T10:18:23.964018'
+          version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:23.964018'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:23.964018'
+    version: '1.0'
+select_program:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    device_id:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:23.964018'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        device:
+          ? ''
+          : default_value
+          integration: home_connect
+          metadata:
+            last_updated: '2023-11-16T10:18:23.964018'
+            version: '1.0'
+        metadata:
+          last_updated: '2023-11-16T10:18:23.964018'
+          version: '1.0'
+    key:
+      ? ''
+      : default_value
+      example: BSH.Common.Option.StartInRelative
+      metadata:
+        last_updated: '2023-11-16T10:18:23.964018'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.964018'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:23.964018'
+      version: '1.0'
+    program:
+      ? ''
+      : default_value
+      example: Dishcare.Dishwasher.Program.Auto2
+      metadata:
+        last_updated: '2023-11-16T10:18:23.964018'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.964018'
+          version: '1.0'
+        text: null
+    unit:
+      ? ''
+      : default_value
+      example: seconds
+      metadata:
+        last_updated: '2023-11-16T10:18:23.964018'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.964018'
+          version: '1.0'
+        text: null
+    value:
+      ? ''
+      : default_value
+      example: 1800
+      metadata:
+        last_updated: '2023-11-16T10:18:23.964018'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.964018'
+          version: '1.0'
+        object: null
+  metadata:
+    last_updated: '2023-11-16T10:18:23.964018'
+    version: '1.0'
+set_option_active:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    device_id:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:23.964018'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        device:
+          ? ''
+          : default_value
+          integration: home_connect
+          metadata:
+            last_updated: '2023-11-16T10:18:23.964018'
+            version: '1.0'
+        metadata:
+          last_updated: '2023-11-16T10:18:23.964018'
+          version: '1.0'
+    key:
+      ? ''
+      : default_value
+      example: LaundryCare.Dryer.Option.DryingTarget
+      metadata:
+        last_updated: '2023-11-16T10:18:23.964018'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.964018'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:23.964018'
+      version: '1.0'
+    value:
+      ? ''
+      : default_value
+      example: LaundryCare.Dryer.EnumType.DryingTarget.IronDry
+      metadata:
+        last_updated: '2023-11-16T10:18:23.964018'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.964018'
+          version: '1.0'
+        object: null
+  metadata:
+    last_updated: '2023-11-16T10:18:23.964018'
+    version: '1.0'
+set_option_selected:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    device_id:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:23.964018'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        device:
+          ? ''
+          : default_value
+          integration: home_connect
+          metadata:
+            last_updated: '2023-11-16T10:18:23.964018'
+            version: '1.0'
+        metadata:
+          last_updated: '2023-11-16T10:18:23.964018'
+          version: '1.0'
+    key:
+      ? ''
+      : default_value
+      example: LaundryCare.Dryer.Option.DryingTarget
+      metadata:
+        last_updated: '2023-11-16T10:18:23.964018'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.964018'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:23.964018'
+      version: '1.0'
+    value:
+      ? ''
+      : default_value
+      example: LaundryCare.Dryer.EnumType.DryingTarget.IronDry
+      metadata:
+        last_updated: '2023-11-16T10:18:23.964018'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.964018'
+          version: '1.0'
+        object: null
+  metadata:
+    last_updated: '2023-11-16T10:18:23.964018'
+    version: '1.0'
+start_program:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    device_id:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:23.964018'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        device:
+          ? ''
+          : default_value
+          integration: home_connect
+          metadata:
+            last_updated: '2023-11-16T10:18:23.964018'
+            version: '1.0'
+        metadata:
+          last_updated: '2023-11-16T10:18:23.964018'
+          version: '1.0'
+    key:
+      ? ''
+      : default_value
+      example: BSH.Common.Option.StartInRelative
+      metadata:
+        last_updated: '2023-11-16T10:18:23.964018'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.964018'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:23.964018'
+      version: '1.0'
+    program:
+      ? ''
+      : default_value
+      example: Dishcare.Dishwasher.Program.Auto2
+      metadata:
+        last_updated: '2023-11-16T10:18:23.964018'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.964018'
+          version: '1.0'
+        text: null
+    unit:
+      ? ''
+      : default_value
+      example: seconds
+      metadata:
+        last_updated: '2023-11-16T10:18:23.964018'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.964018'
+          version: '1.0'
+        text: null
+    value:
+      ? ''
+      : default_value
+      example: 1800
+      metadata:
+        last_updated: '2023-11-16T10:18:23.964018'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.964018'
+          version: '1.0'
+        object: null
+  metadata:
+    last_updated: '2023-11-16T10:18:23.964018'
+    version: '1.0'

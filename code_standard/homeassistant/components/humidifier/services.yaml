@@ -1,0 +1,151 @@
+? ''
+: default_value
+metadata:
+  last_updated: '2023-11-16T10:18:24.066614'
+  version: '1.0'
+set_humidity:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    humidity:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:24.066614'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:24.066614'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 100
+          metadata:
+            last_updated: '2023-11-16T10:18:24.066614'
+            version: '1.0'
+          min: 0
+          unit_of_measurement: '%'
+    metadata:
+      last_updated: '2023-11-16T10:18:24.066614'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:24.066614'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: humidifier
+      metadata:
+        last_updated: '2023-11-16T10:18:24.066614'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:24.066614'
+      version: '1.0'
+set_mode:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    metadata:
+      last_updated: '2023-11-16T10:18:24.066614'
+      version: '1.0'
+    mode:
+      ? ''
+      : default_value
+      example: away
+      metadata:
+        last_updated: '2023-11-16T10:18:24.066614'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:24.066614'
+          version: '1.0'
+        text: null
+  metadata:
+    last_updated: '2023-11-16T10:18:24.066614'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: humidifier
+      metadata:
+        last_updated: '2023-11-16T10:18:24.066614'
+        version: '1.0'
+      supported_features:
+      - humidifier.HumidifierEntityFeature.MODES
+    metadata:
+      last_updated: '2023-11-16T10:18:24.066614'
+      version: '1.0'
+toggle:
+  ? ''
+  : default_value
+  metadata:
+    last_updated: '2023-11-16T10:18:24.066614'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: humidifier
+      metadata:
+        last_updated: '2023-11-16T10:18:24.066614'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:24.066614'
+      version: '1.0'
+turn_off:
+  ? ''
+  : default_value
+  metadata:
+    last_updated: '2023-11-16T10:18:24.066614'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: humidifier
+      metadata:
+        last_updated: '2023-11-16T10:18:24.066614'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:24.066614'
+      version: '1.0'
+turn_on:
+  ? ''
+  : default_value
+  metadata:
+    last_updated: '2023-11-16T10:18:24.066614'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: humidifier
+      metadata:
+        last_updated: '2023-11-16T10:18:24.066614'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:24.066614'
+      version: '1.0'

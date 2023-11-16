@@ -1,0 +1,178 @@
+? ''
+: default_value
+adb_command:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    command:
+      ? ''
+      : default_value
+      example: HOME
+      metadata:
+        last_updated: '2023-11-16T10:18:22.179708'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.179708'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:22.179708'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:22.179708'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: media_player
+      integration: androidtv
+      metadata:
+        last_updated: '2023-11-16T10:18:22.179708'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.179708'
+      version: '1.0'
+download:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    device_path:
+      ? ''
+      : default_value
+      example: /storage/emulated/0/Download/example.txt
+      metadata:
+        last_updated: '2023-11-16T10:18:22.179708'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.179708'
+          version: '1.0'
+        text: null
+    local_path:
+      ? ''
+      : default_value
+      example: /config/www/example.txt
+      metadata:
+        last_updated: '2023-11-16T10:18:22.179708'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.179708'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:22.179708'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:22.179708'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: media_player
+      integration: androidtv
+      metadata:
+        last_updated: '2023-11-16T10:18:22.179708'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.179708'
+      version: '1.0'
+learn_sendevent:
+  ? ''
+  : default_value
+  metadata:
+    last_updated: '2023-11-16T10:18:22.179708'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: media_player
+      integration: androidtv
+      metadata:
+        last_updated: '2023-11-16T10:18:22.179708'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.179708'
+      version: '1.0'
+metadata:
+  last_updated: '2023-11-16T10:18:22.179708'
+  version: '1.0'
+upload:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    device_path:
+      ? ''
+      : default_value
+      example: /storage/emulated/0/Download/example.txt
+      metadata:
+        last_updated: '2023-11-16T10:18:22.179708'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.179708'
+          version: '1.0'
+        text: null
+    local_path:
+      ? ''
+      : default_value
+      example: /config/www/example.txt
+      metadata:
+        last_updated: '2023-11-16T10:18:22.179708'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.179708'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:22.179708'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:22.179708'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: media_player
+      integration: androidtv
+      metadata:
+        last_updated: '2023-11-16T10:18:22.179708'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.179708'
+      version: '1.0'

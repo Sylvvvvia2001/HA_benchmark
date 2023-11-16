@@ -1,0 +1,478 @@
+? ''
+: default_value
+addon_restart:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    addon:
+      ? ''
+      : default_value
+      example: core_ssh
+      metadata:
+        last_updated: '2023-11-16T10:18:23.660210'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        addon: null
+        metadata:
+          last_updated: '2023-11-16T10:18:23.660210'
+          version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:23.660210'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:23.660210'
+    version: '1.0'
+addon_start:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    addon:
+      ? ''
+      : default_value
+      example: core_ssh
+      metadata:
+        last_updated: '2023-11-16T10:18:23.660210'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        addon: null
+        metadata:
+          last_updated: '2023-11-16T10:18:23.660210'
+          version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:23.660210'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:23.660210'
+    version: '1.0'
+addon_stdin:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    addon:
+      ? ''
+      : default_value
+      example: core_ssh
+      metadata:
+        last_updated: '2023-11-16T10:18:23.660210'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        addon: null
+        metadata:
+          last_updated: '2023-11-16T10:18:23.660210'
+          version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:23.660210'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:23.660210'
+    version: '1.0'
+addon_stop:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    addon:
+      ? ''
+      : default_value
+      example: core_ssh
+      metadata:
+        last_updated: '2023-11-16T10:18:23.660210'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        addon: null
+        metadata:
+          last_updated: '2023-11-16T10:18:23.660210'
+          version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:23.660210'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:23.660210'
+    version: '1.0'
+addon_update:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    addon:
+      ? ''
+      : default_value
+      example: core_ssh
+      metadata:
+        last_updated: '2023-11-16T10:18:23.660210'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        addon: null
+        metadata:
+          last_updated: '2023-11-16T10:18:23.660210'
+          version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:23.660210'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:23.660210'
+    version: '1.0'
+backup_full:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    compressed:
+      ? ''
+      : default_value
+      default: true
+      metadata:
+        last_updated: '2023-11-16T10:18:23.660210'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        boolean: null
+        metadata:
+          last_updated: '2023-11-16T10:18:23.660210'
+          version: '1.0'
+    homeassistant_exclude_database:
+      ? ''
+      : default_value
+      default: false
+      metadata:
+        last_updated: '2023-11-16T10:18:23.660210'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        boolean: null
+        metadata:
+          last_updated: '2023-11-16T10:18:23.660210'
+          version: '1.0'
+    location:
+      ? ''
+      : default_value
+      example: my_backup_mount
+      metadata:
+        last_updated: '2023-11-16T10:18:23.660210'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        backup_location: null
+        metadata:
+          last_updated: '2023-11-16T10:18:23.660210'
+          version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:23.660210'
+      version: '1.0'
+    name:
+      ? ''
+      : default_value
+      example: Backup 1
+      metadata:
+        last_updated: '2023-11-16T10:18:23.660210'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.660210'
+          version: '1.0'
+        text: null
+    password:
+      ? ''
+      : default_value
+      example: password
+      metadata:
+        last_updated: '2023-11-16T10:18:23.660210'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.660210'
+          version: '1.0'
+        text: null
+  metadata:
+    last_updated: '2023-11-16T10:18:23.660210'
+    version: '1.0'
+backup_partial:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    addons:
+      ? ''
+      : default_value
+      example:
+      - core_mosquitto
+      - core_samba
+      - core_ssh
+      metadata:
+        last_updated: '2023-11-16T10:18:23.660210'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.660210'
+          version: '1.0'
+        object: null
+    compressed:
+      ? ''
+      : default_value
+      default: true
+      metadata:
+        last_updated: '2023-11-16T10:18:23.660210'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        boolean: null
+        metadata:
+          last_updated: '2023-11-16T10:18:23.660210'
+          version: '1.0'
+    folders:
+      ? ''
+      : default_value
+      example:
+      - homeassistant
+      - share
+      metadata:
+        last_updated: '2023-11-16T10:18:23.660210'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.660210'
+          version: '1.0'
+        object: null
+    homeassistant:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:23.660210'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        boolean: null
+        metadata:
+          last_updated: '2023-11-16T10:18:23.660210'
+          version: '1.0'
+    homeassistant_exclude_database:
+      ? ''
+      : default_value
+      default: false
+      metadata:
+        last_updated: '2023-11-16T10:18:23.660210'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        boolean: null
+        metadata:
+          last_updated: '2023-11-16T10:18:23.660210'
+          version: '1.0'
+    location:
+      ? ''
+      : default_value
+      example: my_backup_mount
+      metadata:
+        last_updated: '2023-11-16T10:18:23.660210'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        backup_location: null
+        metadata:
+          last_updated: '2023-11-16T10:18:23.660210'
+          version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:23.660210'
+      version: '1.0'
+    name:
+      ? ''
+      : default_value
+      example: Partial backup 1
+      metadata:
+        last_updated: '2023-11-16T10:18:23.660210'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.660210'
+          version: '1.0'
+        text: null
+    password:
+      ? ''
+      : default_value
+      example: password
+      metadata:
+        last_updated: '2023-11-16T10:18:23.660210'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.660210'
+          version: '1.0'
+        text: null
+  metadata:
+    last_updated: '2023-11-16T10:18:23.660210'
+    version: '1.0'
+host_reboot: null
+host_shutdown: null
+metadata:
+  last_updated: '2023-11-16T10:18:23.660210'
+  version: '1.0'
+restore_full:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    metadata:
+      last_updated: '2023-11-16T10:18:23.660210'
+      version: '1.0'
+    password:
+      ? ''
+      : default_value
+      example: password
+      metadata:
+        last_updated: '2023-11-16T10:18:23.660210'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.660210'
+          version: '1.0'
+        text: null
+    slug:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:23.660210'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.660210'
+          version: '1.0'
+        text: null
+  metadata:
+    last_updated: '2023-11-16T10:18:23.660210'
+    version: '1.0'
+restore_partial:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    addons:
+      ? ''
+      : default_value
+      example:
+      - core_mosquitto
+      - core_samba
+      - core_ssh
+      metadata:
+        last_updated: '2023-11-16T10:18:23.660210'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.660210'
+          version: '1.0'
+        object: null
+    folders:
+      ? ''
+      : default_value
+      example:
+      - homeassistant
+      - share
+      metadata:
+        last_updated: '2023-11-16T10:18:23.660210'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.660210'
+          version: '1.0'
+        object: null
+    homeassistant:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:23.660210'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        boolean: null
+        metadata:
+          last_updated: '2023-11-16T10:18:23.660210'
+          version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:23.660210'
+      version: '1.0'
+    password:
+      ? ''
+      : default_value
+      example: password
+      metadata:
+        last_updated: '2023-11-16T10:18:23.660210'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.660210'
+          version: '1.0'
+        text: null
+    slug:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:23.660210'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.660210'
+          version: '1.0'
+        text: null
+  metadata:
+    last_updated: '2023-11-16T10:18:23.660210'
+    version: '1.0'

@@ -1,0 +1,160 @@
+? ''
+: default_value
+activate_scene:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    brightness:
+      ? ''
+      : default_value
+      advanced: true
+      metadata:
+        last_updated: '2023-11-16T10:18:24.043095'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:24.043095'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 255
+          metadata:
+            last_updated: '2023-11-16T10:18:24.043095'
+            version: '1.0'
+          min: 1
+    dynamic:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:24.043095'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        boolean: null
+        metadata:
+          last_updated: '2023-11-16T10:18:24.043095'
+          version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:24.043095'
+      version: '1.0'
+    speed:
+      ? ''
+      : default_value
+      advanced: true
+      metadata:
+        last_updated: '2023-11-16T10:18:24.043095'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:24.043095'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 100
+          metadata:
+            last_updated: '2023-11-16T10:18:24.043095'
+            version: '1.0'
+          min: 0
+    transition:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:24.043095'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:24.043095'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 3600
+          metadata:
+            last_updated: '2023-11-16T10:18:24.043095'
+            version: '1.0'
+          min: 0
+          unit_of_measurement: seconds
+  metadata:
+    last_updated: '2023-11-16T10:18:24.043095'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: scene
+      integration: hue
+      metadata:
+        last_updated: '2023-11-16T10:18:24.043095'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:24.043095'
+      version: '1.0'
+hue_activate_scene:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    dynamic:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:24.043095'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        boolean: null
+        metadata:
+          last_updated: '2023-11-16T10:18:24.043095'
+          version: '1.0'
+    group_name:
+      ? ''
+      : default_value
+      example: Living Room
+      metadata:
+        last_updated: '2023-11-16T10:18:24.043095'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:24.043095'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:24.043095'
+      version: '1.0'
+    scene_name:
+      ? ''
+      : default_value
+      example: Energize
+      metadata:
+        last_updated: '2023-11-16T10:18:24.043095'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:24.043095'
+          version: '1.0'
+        text: null
+  metadata:
+    last_updated: '2023-11-16T10:18:24.043095'
+    version: '1.0'
+metadata:
+  last_updated: '2023-11-16T10:18:24.043095'
+  version: '1.0'

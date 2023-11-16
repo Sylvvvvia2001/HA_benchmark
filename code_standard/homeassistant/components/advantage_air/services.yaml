@@ -1,0 +1,53 @@
+? ''
+: default_value
+metadata:
+  last_updated: '2023-11-16T10:18:22.038661'
+  version: '1.0'
+set_time_to:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    metadata:
+      last_updated: '2023-11-16T10:18:22.038661'
+      version: '1.0'
+    minutes:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:22.038661'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.038661'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 1440
+          metadata:
+            last_updated: '2023-11-16T10:18:22.038661'
+            version: '1.0'
+          min: 0
+          unit_of_measurement: minutes
+  metadata:
+    last_updated: '2023-11-16T10:18:22.038661'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: sensor
+      integration: advantage_air
+      metadata:
+        last_updated: '2023-11-16T10:18:22.038661'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.038661'
+      version: '1.0'

@@ -1,0 +1,131 @@
+? ''
+: default_value
+configure:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    bridgeid:
+      ? ''
+      : default_value
+      example: 00212EFFFF012345
+      metadata:
+        last_updated: '2023-11-16T10:18:22.663478'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.663478'
+          version: '1.0'
+        text: null
+    data:
+      ? ''
+      : default_value
+      example: '{"on": true}'
+      metadata:
+        last_updated: '2023-11-16T10:18:22.663478'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.663478'
+          version: '1.0'
+        object: null
+    entity:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:22.663478'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        entity:
+          ? ''
+          : default_value
+          integration: deconz
+          metadata:
+            last_updated: '2023-11-16T10:18:22.663478'
+            version: '1.0'
+        metadata:
+          last_updated: '2023-11-16T10:18:22.663478'
+          version: '1.0'
+    field:
+      ? ''
+      : default_value
+      example: '"/lights/1/state" or "/state"'
+      metadata:
+        last_updated: '2023-11-16T10:18:22.663478'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.663478'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:22.663478'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:22.663478'
+    version: '1.0'
+device_refresh:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    bridgeid:
+      ? ''
+      : default_value
+      example: 00212EFFFF012345
+      metadata:
+        last_updated: '2023-11-16T10:18:22.663478'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.663478'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:22.663478'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:22.663478'
+    version: '1.0'
+metadata:
+  last_updated: '2023-11-16T10:18:22.663478'
+  version: '1.0'
+remove_orphaned_entries:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    bridgeid:
+      ? ''
+      : default_value
+      example: 00212EFFFF012345
+      metadata:
+        last_updated: '2023-11-16T10:18:22.663478'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.663478'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:22.663478'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:22.663478'
+    version: '1.0'

@@ -1,0 +1,109 @@
+? ''
+: default_value
+decrement:
+  ? ''
+  : default_value
+  metadata:
+    last_updated: '2023-11-16T10:18:22.585314'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: counter
+      metadata:
+        last_updated: '2023-11-16T10:18:22.585314'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.585314'
+      version: '1.0'
+increment:
+  ? ''
+  : default_value
+  metadata:
+    last_updated: '2023-11-16T10:18:22.585314'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: counter
+      metadata:
+        last_updated: '2023-11-16T10:18:22.585314'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.585314'
+      version: '1.0'
+metadata:
+  last_updated: '2023-11-16T10:18:22.585314'
+  version: '1.0'
+reset:
+  ? ''
+  : default_value
+  metadata:
+    last_updated: '2023-11-16T10:18:22.585314'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: counter
+      metadata:
+        last_updated: '2023-11-16T10:18:22.585314'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.585314'
+      version: '1.0'
+set_value:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    metadata:
+      last_updated: '2023-11-16T10:18:22.585314'
+      version: '1.0'
+    value:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:22.585314'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.585314'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 9223372036854775807
+          metadata:
+            last_updated: '2023-11-16T10:18:22.585314'
+            version: '1.0'
+          min: 0
+          mode: box
+  metadata:
+    last_updated: '2023-11-16T10:18:22.585314'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: counter
+      metadata:
+        last_updated: '2023-11-16T10:18:22.585314'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.585314'
+      version: '1.0'

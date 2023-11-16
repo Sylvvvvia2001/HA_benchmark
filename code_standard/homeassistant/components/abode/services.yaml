@@ -1,0 +1,113 @@
+? ''
+: default_value
+capture_image:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    entity_id:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:21.991143'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        entity:
+          ? ''
+          : default_value
+          domain: camera
+          integration: abode
+          metadata:
+            last_updated: '2023-11-16T10:18:21.991143'
+            version: '1.0'
+        metadata:
+          last_updated: '2023-11-16T10:18:21.991143'
+          version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:21.991143'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:21.991143'
+    version: '1.0'
+change_setting:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    metadata:
+      last_updated: '2023-11-16T10:18:21.991143'
+      version: '1.0'
+    setting:
+      ? ''
+      : default_value
+      example: beeper_mute
+      metadata:
+        last_updated: '2023-11-16T10:18:21.991143'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:21.991143'
+          version: '1.0'
+        text: null
+    value:
+      ? ''
+      : default_value
+      example: '1'
+      metadata:
+        last_updated: '2023-11-16T10:18:21.991143'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:21.991143'
+          version: '1.0'
+        text: null
+  metadata:
+    last_updated: '2023-11-16T10:18:21.991143'
+    version: '1.0'
+metadata:
+  last_updated: '2023-11-16T10:18:21.991143'
+  version: '1.0'
+trigger_automation:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    entity_id:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:21.991143'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        entity:
+          ? ''
+          : default_value
+          domain: switch
+          integration: abode
+          metadata:
+            last_updated: '2023-11-16T10:18:21.991143'
+            version: '1.0'
+        metadata:
+          last_updated: '2023-11-16T10:18:21.991143'
+          version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:21.991143'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:21.991143'
+    version: '1.0'

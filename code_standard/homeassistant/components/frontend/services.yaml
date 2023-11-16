@@ -1,0 +1,62 @@
+? ''
+: default_value
+metadata:
+  last_updated: '2023-11-16T10:18:23.369600'
+  version: '1.0'
+reload_themes: null
+set_theme:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    metadata:
+      last_updated: '2023-11-16T10:18:23.369600'
+      version: '1.0'
+    mode:
+      ? ''
+      : default_value
+      default: light
+      metadata:
+        last_updated: '2023-11-16T10:18:23.369600'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.369600'
+          version: '1.0'
+        select:
+          ? ''
+          : default_value
+          metadata:
+            last_updated: '2023-11-16T10:18:23.369600'
+            version: '1.0'
+          options:
+          - dark
+          - light
+          translation_key: mode
+    name:
+      ? ''
+      : default_value
+      example: default
+      metadata:
+        last_updated: '2023-11-16T10:18:23.369600'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.369600'
+          version: '1.0'
+        theme:
+          ? ''
+          : default_value
+          include_default: true
+          metadata:
+            last_updated: '2023-11-16T10:18:23.369600'
+            version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:23.369600'
+    version: '1.0'

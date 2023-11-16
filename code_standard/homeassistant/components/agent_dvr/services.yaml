@@ -1,0 +1,105 @@
+? ''
+: default_value
+disable_alerts:
+  ? ''
+  : default_value
+  metadata:
+    last_updated: '2023-11-16T10:18:22.038661'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: camera
+      integration: agent_dvr
+      metadata:
+        last_updated: '2023-11-16T10:18:22.038661'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.038661'
+      version: '1.0'
+enable_alerts:
+  ? ''
+  : default_value
+  metadata:
+    last_updated: '2023-11-16T10:18:22.038661'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: camera
+      integration: agent_dvr
+      metadata:
+        last_updated: '2023-11-16T10:18:22.038661'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.038661'
+      version: '1.0'
+metadata:
+  last_updated: '2023-11-16T10:18:22.054416'
+  version: '1.0'
+snapshot:
+  ? ''
+  : default_value
+  metadata:
+    last_updated: '2023-11-16T10:18:22.054416'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: camera
+      integration: agent_dvr
+      metadata:
+        last_updated: '2023-11-16T10:18:22.054416'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.054416'
+      version: '1.0'
+start_recording:
+  ? ''
+  : default_value
+  metadata:
+    last_updated: '2023-11-16T10:18:22.038661'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: camera
+      integration: agent_dvr
+      metadata:
+        last_updated: '2023-11-16T10:18:22.038661'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.038661'
+      version: '1.0'
+stop_recording:
+  ? ''
+  : default_value
+  metadata:
+    last_updated: '2023-11-16T10:18:22.038661'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: camera
+      integration: agent_dvr
+      metadata:
+        last_updated: '2023-11-16T10:18:22.038661'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.038661'
+      version: '1.0'

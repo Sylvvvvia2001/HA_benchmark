@@ -1,0 +1,458 @@
+? ''
+: default_value
+metadata:
+  last_updated: '2023-11-16T10:18:22.507185'
+  version: '1.0'
+set_aux_heat:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    aux_heat:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:22.507185'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        boolean: null
+        metadata:
+          last_updated: '2023-11-16T10:18:22.507185'
+          version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.507185'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:22.507185'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: climate
+      metadata:
+        last_updated: '2023-11-16T10:18:22.507185'
+        version: '1.0'
+      supported_features:
+      - climate.ClimateEntityFeature.AUX_HEAT
+    metadata:
+      last_updated: '2023-11-16T10:18:22.507185'
+      version: '1.0'
+set_fan_mode:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    fan_mode:
+      ? ''
+      : default_value
+      example: low
+      metadata:
+        last_updated: '2023-11-16T10:18:22.507185'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.507185'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:22.507185'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:22.507185'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: climate
+      metadata:
+        last_updated: '2023-11-16T10:18:22.507185'
+        version: '1.0'
+      supported_features:
+      - climate.ClimateEntityFeature.FAN_MODE
+    metadata:
+      last_updated: '2023-11-16T10:18:22.507185'
+      version: '1.0'
+set_humidity:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    humidity:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:22.507185'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.507185'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 99
+          metadata:
+            last_updated: '2023-11-16T10:18:22.507185'
+            version: '1.0'
+          min: 30
+          unit_of_measurement: '%'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.507185'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:22.507185'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: climate
+      metadata:
+        last_updated: '2023-11-16T10:18:22.507185'
+        version: '1.0'
+      supported_features:
+      - climate.ClimateEntityFeature.TARGET_HUMIDITY
+    metadata:
+      last_updated: '2023-11-16T10:18:22.507185'
+      version: '1.0'
+set_hvac_mode:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    hvac_mode:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:22.507185'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.507185'
+          version: '1.0'
+        select:
+          ? ''
+          : default_value
+          metadata:
+            last_updated: '2023-11-16T10:18:22.507185'
+            version: '1.0'
+          options:
+          - auto
+          - cool
+          - dry
+          - fan_only
+          - heat
+          - heat_cool
+          - 'off'
+          translation_key: hvac_mode
+    metadata:
+      last_updated: '2023-11-16T10:18:22.507185'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:22.507185'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: climate
+      metadata:
+        last_updated: '2023-11-16T10:18:22.507185'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.507185'
+      version: '1.0'
+set_preset_mode:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    metadata:
+      last_updated: '2023-11-16T10:18:22.507185'
+      version: '1.0'
+    preset_mode:
+      ? ''
+      : default_value
+      example: away
+      metadata:
+        last_updated: '2023-11-16T10:18:22.507185'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.507185'
+          version: '1.0'
+        text: null
+  metadata:
+    last_updated: '2023-11-16T10:18:22.507185'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: climate
+      metadata:
+        last_updated: '2023-11-16T10:18:22.507185'
+        version: '1.0'
+      supported_features:
+      - climate.ClimateEntityFeature.PRESET_MODE
+    metadata:
+      last_updated: '2023-11-16T10:18:22.507185'
+      version: '1.0'
+set_swing_mode:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    metadata:
+      last_updated: '2023-11-16T10:18:22.507185'
+      version: '1.0'
+    swing_mode:
+      ? ''
+      : default_value
+      example: horizontal
+      metadata:
+        last_updated: '2023-11-16T10:18:22.507185'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.507185'
+          version: '1.0'
+        text: null
+  metadata:
+    last_updated: '2023-11-16T10:18:22.507185'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: climate
+      metadata:
+        last_updated: '2023-11-16T10:18:22.507185'
+        version: '1.0'
+      supported_features:
+      - climate.ClimateEntityFeature.SWING_MODE
+    metadata:
+      last_updated: '2023-11-16T10:18:22.507185'
+      version: '1.0'
+set_temperature:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    hvac_mode:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:22.507185'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.507185'
+          version: '1.0'
+        select:
+          ? ''
+          : default_value
+          metadata:
+            last_updated: '2023-11-16T10:18:22.507185'
+            version: '1.0'
+          options:
+          - auto
+          - cool
+          - dry
+          - fan_only
+          - heat
+          - heat_cool
+          - 'off'
+          translation_key: hvac_mode
+    metadata:
+      last_updated: '2023-11-16T10:18:22.507185'
+      version: '1.0'
+    target_temp_high:
+      ? ''
+      : default_value
+      advanced: true
+      filter:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.507185'
+          version: '1.0'
+        supported_features:
+        - climate.ClimateEntityFeature.TARGET_TEMPERATURE_RANGE
+      metadata:
+        last_updated: '2023-11-16T10:18:22.507185'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.507185'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 250
+          metadata:
+            last_updated: '2023-11-16T10:18:22.507185'
+            version: '1.0'
+          min: 0
+          mode: box
+          step: 0.1
+    target_temp_low:
+      ? ''
+      : default_value
+      advanced: true
+      filter:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.507185'
+          version: '1.0'
+        supported_features:
+        - climate.ClimateEntityFeature.TARGET_TEMPERATURE_RANGE
+      metadata:
+        last_updated: '2023-11-16T10:18:22.507185'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.507185'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 250
+          metadata:
+            last_updated: '2023-11-16T10:18:22.507185'
+            version: '1.0'
+          min: 0
+          mode: box
+          step: 0.1
+    temperature:
+      ? ''
+      : default_value
+      filter:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.507185'
+          version: '1.0'
+        supported_features:
+        - climate.ClimateEntityFeature.TARGET_TEMPERATURE
+      metadata:
+        last_updated: '2023-11-16T10:18:22.507185'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.507185'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 250
+          metadata:
+            last_updated: '2023-11-16T10:18:22.507185'
+            version: '1.0'
+          min: 0
+          mode: box
+          step: 0.1
+  metadata:
+    last_updated: '2023-11-16T10:18:22.507185'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: climate
+      metadata:
+        last_updated: '2023-11-16T10:18:22.507185'
+        version: '1.0'
+      supported_features:
+      - climate.ClimateEntityFeature.TARGET_TEMPERATURE
+      - climate.ClimateEntityFeature.TARGET_TEMPERATURE_RANGE
+    metadata:
+      last_updated: '2023-11-16T10:18:22.507185'
+      version: '1.0'
+turn_off:
+  ? ''
+  : default_value
+  metadata:
+    last_updated: '2023-11-16T10:18:22.507185'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: climate
+      metadata:
+        last_updated: '2023-11-16T10:18:22.507185'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.507185'
+      version: '1.0'
+turn_on:
+  ? ''
+  : default_value
+  metadata:
+    last_updated: '2023-11-16T10:18:22.507185'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: climate
+      metadata:
+        last_updated: '2023-11-16T10:18:22.507185'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.507185'
+      version: '1.0'

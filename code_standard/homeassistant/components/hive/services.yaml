@@ -1,0 +1,172 @@
+? ''
+: default_value
+boost_heating_off:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    entity_id:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:23.757142'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        entity:
+          ? ''
+          : default_value
+          domain: climate
+          integration: hive
+          metadata:
+            last_updated: '2023-11-16T10:18:23.757142'
+            version: '1.0'
+        metadata:
+          last_updated: '2023-11-16T10:18:23.757142'
+          version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:23.757142'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:23.757142'
+    version: '1.0'
+boost_heating_on:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    metadata:
+      last_updated: '2023-11-16T10:18:23.757142'
+      version: '1.0'
+    temperature:
+      ? ''
+      : default_value
+      default: 25.0
+      metadata:
+        last_updated: '2023-11-16T10:18:23.757142'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.757142'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 35
+          metadata:
+            last_updated: '2023-11-16T10:18:23.757142'
+            version: '1.0'
+          min: 7
+          step: 0.5
+          unit_of_measurement: "\u63B3"
+    time_period:
+      ? ''
+      : default_value
+      example: 01:30:00
+      metadata:
+        last_updated: '2023-11-16T10:18:23.757142'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.757142'
+          version: '1.0'
+        time: null
+  metadata:
+    last_updated: '2023-11-16T10:18:23.757142'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: climate
+      integration: hive
+      metadata:
+        last_updated: '2023-11-16T10:18:23.757142'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:23.757142'
+      version: '1.0'
+boost_hot_water:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    entity_id:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:23.757142'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        entity:
+          ? ''
+          : default_value
+          domain: water_heater
+          integration: hive
+          metadata:
+            last_updated: '2023-11-16T10:18:23.757142'
+            version: '1.0'
+        metadata:
+          last_updated: '2023-11-16T10:18:23.757142'
+          version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:23.757142'
+      version: '1.0'
+    on_off:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:23.757142'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.757142'
+          version: '1.0'
+        select:
+          ? ''
+          : default_value
+          metadata:
+            last_updated: '2023-11-16T10:18:23.757142'
+            version: '1.0'
+          options:
+          - 'off'
+          - 'on'
+    time_period:
+      ? ''
+      : default_value
+      example: 01:30:00
+      metadata:
+        last_updated: '2023-11-16T10:18:23.757142'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.757142'
+          version: '1.0'
+        time: null
+  metadata:
+    last_updated: '2023-11-16T10:18:23.757142'
+    version: '1.0'
+metadata:
+  last_updated: '2023-11-16T10:18:23.757142'
+  version: '1.0'

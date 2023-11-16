@@ -1,0 +1,67 @@
+? ''
+: default_value
+metadata:
+  last_updated: '2023-11-16T10:18:23.119034'
+  version: '1.0'
+teach_face:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    entity_id:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:23.119034'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        entity:
+          ? ''
+          : default_value
+          domain: image_processing
+          integration: facebox
+          metadata:
+            last_updated: '2023-11-16T10:18:23.119034'
+            version: '1.0'
+        metadata:
+          last_updated: '2023-11-16T10:18:23.119034'
+          version: '1.0'
+    file_path:
+      ? ''
+      : default_value
+      example: /images/my_image.jpg
+      metadata:
+        last_updated: '2023-11-16T10:18:23.119034'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.119034'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:23.119034'
+      version: '1.0'
+    name:
+      ? ''
+      : default_value
+      example: my_name
+      metadata:
+        last_updated: '2023-11-16T10:18:23.119034'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.119034'
+          version: '1.0'
+        text: null
+  metadata:
+    last_updated: '2023-11-16T10:18:23.119034'
+    version: '1.0'

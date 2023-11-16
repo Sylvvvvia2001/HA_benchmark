@@ -1,0 +1,32 @@
+? ''
+: default_value
+metadata:
+  last_updated: '2023-11-16T10:18:22.833821'
+  version: '1.0'
+write:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    call:
+      ? ''
+      : default_value
+      example: '{"name": "Hc1MaxFlowTempDesired", "value": 21}'
+      metadata:
+        last_updated: '2023-11-16T10:18:22.833821'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.833821'
+          version: '1.0'
+        object: null
+    metadata:
+      last_updated: '2023-11-16T10:18:22.833821'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:22.833821'
+    version: '1.0'

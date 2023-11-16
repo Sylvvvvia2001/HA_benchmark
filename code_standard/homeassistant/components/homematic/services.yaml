@@ -1,0 +1,430 @@
+? ''
+: default_value
+metadata:
+  last_updated: '2023-11-16T10:18:23.843201'
+  version: '1.0'
+put_paramset:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    address:
+      ? ''
+      : default_value
+      example: LEQ3948571:0
+      metadata:
+        last_updated: '2023-11-16T10:18:23.843201'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.843201'
+          version: '1.0'
+        text: null
+    interface:
+      ? ''
+      : default_value
+      example: wireless
+      metadata:
+        last_updated: '2023-11-16T10:18:23.843201'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.843201'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:23.843201'
+      version: '1.0'
+    paramset:
+      ? ''
+      : default_value
+      example: '{"WEEK_PROGRAM_POINTER": 1}'
+      metadata:
+        last_updated: '2023-11-16T10:18:23.843201'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.843201'
+          version: '1.0'
+        object: null
+    paramset_key:
+      ? ''
+      : default_value
+      example: MASTER
+      metadata:
+        last_updated: '2023-11-16T10:18:23.843201'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.843201'
+          version: '1.0'
+        text: null
+    rx_mode:
+      ? ''
+      : default_value
+      example: BURST
+      metadata:
+        last_updated: '2023-11-16T10:18:23.843201'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.843201'
+          version: '1.0'
+        text: null
+  metadata:
+    last_updated: '2023-11-16T10:18:23.843201'
+    version: '1.0'
+reconnect: null
+set_device_value:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    address:
+      ? ''
+      : default_value
+      example: BidCoS-RF
+      metadata:
+        last_updated: '2023-11-16T10:18:23.843201'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.843201'
+          version: '1.0'
+        text: null
+    channel:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:23.843201'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.843201'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 6
+          metadata:
+            last_updated: '2023-11-16T10:18:23.843201'
+            version: '1.0'
+          min: 1
+    interface:
+      ? ''
+      : default_value
+      example: Interfaces name from config
+      metadata:
+        last_updated: '2023-11-16T10:18:23.843201'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.843201'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:23.843201'
+      version: '1.0'
+    param:
+      ? ''
+      : default_value
+      example: PRESS_LONG
+      metadata:
+        last_updated: '2023-11-16T10:18:23.843201'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.843201'
+          version: '1.0'
+        text: null
+    value:
+      ? ''
+      : default_value
+      example: 1
+      metadata:
+        last_updated: '2023-11-16T10:18:23.843201'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.843201'
+          version: '1.0'
+        text: null
+    value_type:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:23.843201'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.843201'
+          version: '1.0'
+        select:
+          ? ''
+          : default_value
+          metadata:
+            last_updated: '2023-11-16T10:18:23.843201'
+            version: '1.0'
+          options:
+          - boolean
+          - dateTime.iso8601
+          - double
+          - int
+          - string
+  metadata:
+    last_updated: '2023-11-16T10:18:23.843201'
+    version: '1.0'
+set_install_mode:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    address:
+      ? ''
+      : default_value
+      example: LEQ3948571
+      metadata:
+        last_updated: '2023-11-16T10:18:23.843201'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.843201'
+          version: '1.0'
+        text: null
+    interface:
+      ? ''
+      : default_value
+      example: Interfaces name from config
+      metadata:
+        last_updated: '2023-11-16T10:18:23.843201'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.843201'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:23.843201'
+      version: '1.0'
+    mode:
+      ? ''
+      : default_value
+      default: 1
+      metadata:
+        last_updated: '2023-11-16T10:18:23.843201'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.843201'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 2
+          metadata:
+            last_updated: '2023-11-16T10:18:23.843201'
+            version: '1.0'
+          min: 1
+    time:
+      ? ''
+      : default_value
+      default: 60
+      metadata:
+        last_updated: '2023-11-16T10:18:23.843201'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.843201'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 3600
+          metadata:
+            last_updated: '2023-11-16T10:18:23.843201'
+            version: '1.0'
+          min: 1
+          unit_of_measurement: seconds
+  metadata:
+    last_updated: '2023-11-16T10:18:23.843201'
+    version: '1.0'
+set_variable_value:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    entity_id:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:23.843201'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        entity:
+          ? ''
+          : default_value
+          domain: homematic
+          metadata:
+            last_updated: '2023-11-16T10:18:23.843201'
+            version: '1.0'
+        metadata:
+          last_updated: '2023-11-16T10:18:23.843201'
+          version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:23.843201'
+      version: '1.0'
+    name:
+      ? ''
+      : default_value
+      example: testvariable
+      metadata:
+        last_updated: '2023-11-16T10:18:23.843201'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.843201'
+          version: '1.0'
+        text: null
+    value:
+      ? ''
+      : default_value
+      example: 1
+      metadata:
+        last_updated: '2023-11-16T10:18:23.843201'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.843201'
+          version: '1.0'
+        text: null
+  metadata:
+    last_updated: '2023-11-16T10:18:23.843201'
+    version: '1.0'
+virtualkey:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    address:
+      ? ''
+      : default_value
+      example: BidCoS-RF
+      metadata:
+        last_updated: '2023-11-16T10:18:23.843201'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.843201'
+          version: '1.0'
+        text: null
+    channel:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:23.843201'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.843201'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 6
+          metadata:
+            last_updated: '2023-11-16T10:18:23.843201'
+            version: '1.0'
+          min: 1
+    interface:
+      ? ''
+      : default_value
+      example: Interfaces name from config
+      metadata:
+        last_updated: '2023-11-16T10:18:23.843201'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.843201'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:23.843201'
+      version: '1.0'
+    param:
+      ? ''
+      : default_value
+      example: PRESS_LONG
+      metadata:
+        last_updated: '2023-11-16T10:18:23.843201'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.843201'
+          version: '1.0'
+        text: null
+  metadata:
+    last_updated: '2023-11-16T10:18:23.843201'
+    version: '1.0'

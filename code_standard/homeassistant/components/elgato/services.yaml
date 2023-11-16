@@ -1,0 +1,25 @@
+? ''
+: default_value
+identify:
+  ? ''
+  : default_value
+  metadata:
+    last_updated: '2023-11-16T10:18:22.913466'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: light
+      integration: elgato
+      metadata:
+        last_updated: '2023-11-16T10:18:22.913466'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.913466'
+      version: '1.0'
+metadata:
+  last_updated: '2023-11-16T10:18:22.913466'
+  version: '1.0'

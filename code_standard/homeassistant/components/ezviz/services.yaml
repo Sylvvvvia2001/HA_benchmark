@@ -1,0 +1,279 @@
+? ''
+: default_value
+alarm_sound:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    level:
+      ? ''
+      : default_value
+      default: 0
+      example: 0
+      metadata:
+        last_updated: '2023-11-16T10:18:23.087784'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.087784'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 2
+          metadata:
+            last_updated: '2023-11-16T10:18:23.087784'
+            version: '1.0'
+          min: 0
+          mode: box
+          step: 1
+    metadata:
+      last_updated: '2023-11-16T10:18:23.087784'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:23.087784'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: camera
+      integration: ezviz
+      metadata:
+        last_updated: '2023-11-16T10:18:23.087784'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:23.087784'
+      version: '1.0'
+metadata:
+  last_updated: '2023-11-16T10:18:23.087784'
+  version: '1.0'
+ptz:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    direction:
+      ? ''
+      : default_value
+      default: up
+      example: up
+      metadata:
+        last_updated: '2023-11-16T10:18:23.087784'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.087784'
+          version: '1.0'
+        select:
+          ? ''
+          : default_value
+          metadata:
+            last_updated: '2023-11-16T10:18:23.087784'
+            version: '1.0'
+          options:
+          - down
+          - left
+          - right
+          - up
+    metadata:
+      last_updated: '2023-11-16T10:18:23.087784'
+      version: '1.0'
+    speed:
+      ? ''
+      : default_value
+      default: 5
+      example: 5
+      metadata:
+        last_updated: '2023-11-16T10:18:23.087784'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.087784'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 9
+          metadata:
+            last_updated: '2023-11-16T10:18:23.087784'
+            version: '1.0'
+          min: 1
+          mode: box
+          step: 1
+  metadata:
+    last_updated: '2023-11-16T10:18:23.087784'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: camera
+      integration: ezviz
+      metadata:
+        last_updated: '2023-11-16T10:18:23.087784'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:23.087784'
+      version: '1.0'
+set_alarm_detection_sensibility:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    level:
+      ? ''
+      : default_value
+      default: 3
+      example: 3
+      metadata:
+        last_updated: '2023-11-16T10:18:23.087784'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.087784'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 100
+          metadata:
+            last_updated: '2023-11-16T10:18:23.087784'
+            version: '1.0'
+          min: 1
+          mode: box
+          step: 1
+    metadata:
+      last_updated: '2023-11-16T10:18:23.087784'
+      version: '1.0'
+    type_value:
+      ? ''
+      : default_value
+      default: '0'
+      example: '0'
+      metadata:
+        last_updated: '2023-11-16T10:18:23.087784'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.087784'
+          version: '1.0'
+        select:
+          ? ''
+          : default_value
+          metadata:
+            last_updated: '2023-11-16T10:18:23.087784'
+            version: '1.0'
+          options:
+          - '0'
+          - '3'
+  metadata:
+    last_updated: '2023-11-16T10:18:23.087784'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: camera
+      integration: ezviz
+      metadata:
+        last_updated: '2023-11-16T10:18:23.087784'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:23.087784'
+      version: '1.0'
+sound_alarm:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    enable:
+      ? ''
+      : default_value
+      default: 1
+      example: 1
+      metadata:
+        last_updated: '2023-11-16T10:18:23.087784'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.087784'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 2
+          metadata:
+            last_updated: '2023-11-16T10:18:23.087784'
+            version: '1.0'
+          min: 1
+          mode: box
+          step: 1
+    metadata:
+      last_updated: '2023-11-16T10:18:23.087784'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:23.087784'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: camera
+      integration: ezviz
+      metadata:
+        last_updated: '2023-11-16T10:18:23.087784'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:23.087784'
+      version: '1.0'
+wake_device:
+  ? ''
+  : default_value
+  metadata:
+    last_updated: '2023-11-16T10:18:23.087784'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: camera
+      integration: ezviz
+      metadata:
+        last_updated: '2023-11-16T10:18:23.087784'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:23.087784'
+      version: '1.0'

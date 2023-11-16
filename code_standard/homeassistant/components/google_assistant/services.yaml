@@ -1,0 +1,30 @@
+? ''
+: default_value
+metadata:
+  last_updated: '2023-11-16T10:18:23.479101'
+  version: '1.0'
+request_sync:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    agent_user_id:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:23.479101'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.479101'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:23.479101'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:23.479101'
+    version: '1.0'

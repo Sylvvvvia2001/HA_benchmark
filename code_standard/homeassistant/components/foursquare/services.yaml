@@ -1,0 +1,176 @@
+? ''
+: default_value
+checkin:
+  ? ''
+  : default_value
+  description: Check a user into a Foursquare venue.
+  fields:
+    ? ''
+    : default_value
+    alt:
+      ? ''
+      : default_value
+      description: Altitude of the user's location, in meters.
+      example: 0
+      metadata:
+        last_updated: '2023-11-16T10:18:23.322688'
+        version: '1.0'
+      name: Altitude
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.322688'
+          version: '1.0'
+        text: null
+    altacc:
+      ? ''
+      : default_value
+      description: Vertical accuracy of the user's location, in meters.
+      example: 1
+      metadata:
+        last_updated: '2023-11-16T10:18:23.322688'
+        version: '1.0'
+      name: Altitude accuracy
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.322688'
+          version: '1.0'
+        text: null
+    broadcast:
+      ? ''
+      : default_value
+      description: 'Who to broadcast this check-in to. Accepts a comma-delimited list
+        of values: private (off the grid) or public (share with friends), facebook
+        share on facebook, twitter share on twitter, followers share with followers
+        (celebrity mode users only), If no valid value is found, the default is public.'
+      example: public,twitter
+      metadata:
+        last_updated: '2023-11-16T10:18:23.322688'
+        version: '1.0'
+      name: Broadcast
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.322688'
+          version: '1.0'
+        text: null
+    eventid:
+      ? ''
+      : default_value
+      description: The event the user is checking in to.
+      example: UHR8THISVNT
+      metadata:
+        last_updated: '2023-11-16T10:18:23.322688'
+        version: '1.0'
+      name: Event ID
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.322688'
+          version: '1.0'
+        text: null
+    ll:
+      ? ''
+      : default_value
+      description: Latitude and longitude of the user's location. Only specify this
+        field if you have a GPS or other device reported location for the user at
+        the time of check-in.
+      example: 33.7,44.2
+      metadata:
+        last_updated: '2023-11-16T10:18:23.322688'
+        version: '1.0'
+      name: Latitude/Longitude
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.322688'
+          version: '1.0'
+        text: null
+    llacc:
+      ? ''
+      : default_value
+      description: Accuracy of the user's latitude and longitude, in meters.
+      example: 1
+      metadata:
+        last_updated: '2023-11-16T10:18:23.322688'
+        version: '1.0'
+      name: Latitude/Longitude accuracy
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.322688'
+          version: '1.0'
+        text: null
+    mentions:
+      ? ''
+      : default_value
+      description: Mentions in your check-in. This parameter is a semicolon-delimited
+        list of mentions. A single mention is of the form "start,end,userid", where
+        start is the index of the first character in the shout representing the mention,
+        end is the index of the first character in the shout after the mention, and
+        userid is the userid of the user being mentioned. If userid is prefixed with
+        "fbu-", this indicates a Facebook userid that is being mention. Character
+        indices in shouts are 0-based. [Optional]
+      example: 5,10,HZXXY3Y;15,20,GZYYZ3Z;25,30,fbu-GZXY13Y
+      metadata:
+        last_updated: '2023-11-16T10:18:23.322688'
+        version: '1.0'
+      name: Mentions
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.322688'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:23.322688'
+      version: '1.0'
+    shout:
+      ? ''
+      : default_value
+      description: A message about your check-in. The maximum length of this field
+        is 140 characters.
+      example: There are crayons! Crayons!
+      metadata:
+        last_updated: '2023-11-16T10:18:23.322688'
+        version: '1.0'
+      name: Shout
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.322688'
+          version: '1.0'
+        text: null
+    venueid:
+      ? ''
+      : default_value
+      description: The Foursquare venue where the user is checking in.
+      example: IHR8THISVNU
+      metadata:
+        last_updated: '2023-11-16T10:18:23.322688'
+        version: '1.0'
+      name: Venue ID
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.322688'
+          version: '1.0'
+        text: null
+  metadata:
+    last_updated: '2023-11-16T10:18:23.322688'
+    version: '1.0'
+  name: Check in
+metadata:
+  last_updated: '2023-11-16T10:18:23.322688'
+  version: '1.0'

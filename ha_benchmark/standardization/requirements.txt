@@ -1,0 +1,4 @@
+# standardization/requirements.txt
+black
+isort
+rope

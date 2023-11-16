@@ -1,0 +1,279 @@
+? ''
+: default_value
+metadata:
+  last_updated: '2023-11-16T10:18:22.335065'
+  version: '1.0'
+set_fan_speed_tracked_state:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    entity_id:
+      ? ''
+      : default_value
+      example: fan.living_room_fan
+      metadata:
+        last_updated: '2023-11-16T10:18:22.335065'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        entity:
+          ? ''
+          : default_value
+          domain: fan
+          integration: bond
+          metadata:
+            last_updated: '2023-11-16T10:18:22.335065'
+            version: '1.0'
+        metadata:
+          last_updated: '2023-11-16T10:18:22.335065'
+          version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.335065'
+      version: '1.0'
+    speed:
+      ? ''
+      : default_value
+      example: 50
+      metadata:
+        last_updated: '2023-11-16T10:18:22.335065'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.335065'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 100
+          metadata:
+            last_updated: '2023-11-16T10:18:22.335065'
+            version: '1.0'
+          min: 0
+          mode: slider
+          step: 1
+  metadata:
+    last_updated: '2023-11-16T10:18:22.335065'
+    version: '1.0'
+set_light_brightness_tracked_state:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    brightness:
+      ? ''
+      : default_value
+      example: 50
+      metadata:
+        last_updated: '2023-11-16T10:18:22.335065'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.335065'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 255
+          metadata:
+            last_updated: '2023-11-16T10:18:22.335065'
+            version: '1.0'
+          min: 0
+          mode: slider
+          step: 1
+    entity_id:
+      ? ''
+      : default_value
+      example: light.living_room_lights
+      metadata:
+        last_updated: '2023-11-16T10:18:22.335065'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        entity:
+          ? ''
+          : default_value
+          domain: light
+          integration: bond
+          metadata:
+            last_updated: '2023-11-16T10:18:22.335065'
+            version: '1.0'
+        metadata:
+          last_updated: '2023-11-16T10:18:22.335065'
+          version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.335065'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:22.335065'
+    version: '1.0'
+set_light_power_tracked_state:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    entity_id:
+      ? ''
+      : default_value
+      example: light.living_room_lights
+      metadata:
+        last_updated: '2023-11-16T10:18:22.335065'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        entity:
+          ? ''
+          : default_value
+          domain: light
+          integration: bond
+          metadata:
+            last_updated: '2023-11-16T10:18:22.335065'
+            version: '1.0'
+        metadata:
+          last_updated: '2023-11-16T10:18:22.335065'
+          version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.335065'
+      version: '1.0'
+    power_state:
+      ? ''
+      : default_value
+      example: true
+      metadata:
+        last_updated: '2023-11-16T10:18:22.335065'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        boolean: null
+        metadata:
+          last_updated: '2023-11-16T10:18:22.335065'
+          version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:22.335065'
+    version: '1.0'
+set_switch_power_tracked_state:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    entity_id:
+      ? ''
+      : default_value
+      example: switch.whatever
+      metadata:
+        last_updated: '2023-11-16T10:18:22.335065'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        entity:
+          ? ''
+          : default_value
+          domain: switch
+          integration: bond
+          metadata:
+            last_updated: '2023-11-16T10:18:22.335065'
+            version: '1.0'
+        metadata:
+          last_updated: '2023-11-16T10:18:22.335065'
+          version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.335065'
+      version: '1.0'
+    power_state:
+      ? ''
+      : default_value
+      example: true
+      metadata:
+        last_updated: '2023-11-16T10:18:22.335065'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        boolean: null
+        metadata:
+          last_updated: '2023-11-16T10:18:22.335065'
+          version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:22.335065'
+    version: '1.0'
+start_decreasing_brightness:
+  ? ''
+  : default_value
+  metadata:
+    last_updated: '2023-11-16T10:18:22.335065'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: light
+      integration: bond
+      metadata:
+        last_updated: '2023-11-16T10:18:22.335065'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.335065'
+      version: '1.0'
+start_increasing_brightness:
+  ? ''
+  : default_value
+  metadata:
+    last_updated: '2023-11-16T10:18:22.335065'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: light
+      integration: bond
+      metadata:
+        last_updated: '2023-11-16T10:18:22.335065'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.335065'
+      version: '1.0'
+stop:
+  ? ''
+  : default_value
+  metadata:
+    last_updated: '2023-11-16T10:18:22.335065'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: light
+      integration: bond
+      metadata:
+        last_updated: '2023-11-16T10:18:22.335065'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.335065'
+      version: '1.0'

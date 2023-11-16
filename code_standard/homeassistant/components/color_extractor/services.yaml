@@ -1,0 +1,58 @@
+? ''
+: default_value
+metadata:
+  last_updated: '2023-11-16T10:18:22.538476'
+  version: '1.0'
+turn_on:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    color_extract_path:
+      ? ''
+      : default_value
+      example: /opt/images/logo.png
+      metadata:
+        last_updated: '2023-11-16T10:18:22.538476'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.538476'
+          version: '1.0'
+        text: null
+    color_extract_url:
+      ? ''
+      : default_value
+      example: https://www.example.com/images/logo.png
+      metadata:
+        last_updated: '2023-11-16T10:18:22.538476'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.538476'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:22.538476'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:22.538476'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: light
+      metadata:
+        last_updated: '2023-11-16T10:18:22.538476'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.538476'
+      version: '1.0'

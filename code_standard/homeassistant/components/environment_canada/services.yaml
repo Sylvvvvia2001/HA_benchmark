@@ -1,0 +1,55 @@
+? ''
+: default_value
+metadata:
+  last_updated: '2023-11-16T10:18:23.007964'
+  version: '1.0'
+set_radar_type:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    metadata:
+      last_updated: '2023-11-16T10:18:23.007964'
+      version: '1.0'
+    radar_type:
+      ? ''
+      : default_value
+      example: Snow
+      metadata:
+        last_updated: '2023-11-16T10:18:23.007964'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.007964'
+          version: '1.0'
+        select:
+          ? ''
+          : default_value
+          metadata:
+            last_updated: '2023-11-16T10:18:23.007964'
+            version: '1.0'
+          options:
+          - Auto
+          - Rain
+          - Snow
+  metadata:
+    last_updated: '2023-11-16T10:18:23.007964'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: camera
+      integration: environment_canada
+      metadata:
+        last_updated: '2023-11-16T10:18:23.007964'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:23.007964'
+      version: '1.0'

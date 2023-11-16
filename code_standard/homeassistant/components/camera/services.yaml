@@ -1,0 +1,271 @@
+? ''
+: default_value
+disable_motion_detection:
+  ? ''
+  : default_value
+  metadata:
+    last_updated: '2023-11-16T10:18:22.428783'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: camera
+      metadata:
+        last_updated: '2023-11-16T10:18:22.428783'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.428783'
+      version: '1.0'
+enable_motion_detection:
+  ? ''
+  : default_value
+  metadata:
+    last_updated: '2023-11-16T10:18:22.428783'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: camera
+      metadata:
+        last_updated: '2023-11-16T10:18:22.428783'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.428783'
+      version: '1.0'
+metadata:
+  last_updated: '2023-11-16T10:18:22.428783'
+  version: '1.0'
+play_stream:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    format:
+      ? ''
+      : default_value
+      default: hls
+      metadata:
+        last_updated: '2023-11-16T10:18:22.428783'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.428783'
+          version: '1.0'
+        select:
+          ? ''
+          : default_value
+          metadata:
+            last_updated: '2023-11-16T10:18:22.428783'
+            version: '1.0'
+          options:
+          - hls
+    media_player:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:22.428783'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        entity:
+          ? ''
+          : default_value
+          domain: media_player
+          metadata:
+            last_updated: '2023-11-16T10:18:22.428783'
+            version: '1.0'
+        metadata:
+          last_updated: '2023-11-16T10:18:22.428783'
+          version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.428783'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:22.428783'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: camera
+      metadata:
+        last_updated: '2023-11-16T10:18:22.428783'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.428783'
+      version: '1.0'
+record:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    duration:
+      ? ''
+      : default_value
+      default: 30
+      metadata:
+        last_updated: '2023-11-16T10:18:22.428783'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.428783'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 3600
+          metadata:
+            last_updated: '2023-11-16T10:18:22.428783'
+            version: '1.0'
+          min: 1
+          unit_of_measurement: seconds
+    filename:
+      ? ''
+      : default_value
+      example: /tmp/snapshot_{{ entity_id.name }}.mp4
+      metadata:
+        last_updated: '2023-11-16T10:18:22.428783'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.428783'
+          version: '1.0'
+        text: null
+    lookback:
+      ? ''
+      : default_value
+      default: 0
+      metadata:
+        last_updated: '2023-11-16T10:18:22.428783'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.428783'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 300
+          metadata:
+            last_updated: '2023-11-16T10:18:22.428783'
+            version: '1.0'
+          min: 0
+          unit_of_measurement: seconds
+    metadata:
+      last_updated: '2023-11-16T10:18:22.428783'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:22.428783'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: camera
+      metadata:
+        last_updated: '2023-11-16T10:18:22.428783'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.428783'
+      version: '1.0'
+snapshot:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    filename:
+      ? ''
+      : default_value
+      example: /tmp/snapshot_{{ entity_id.name }}.jpg
+      metadata:
+        last_updated: '2023-11-16T10:18:22.428783'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.428783'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:22.428783'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:22.428783'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: camera
+      metadata:
+        last_updated: '2023-11-16T10:18:22.428783'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.428783'
+      version: '1.0'
+turn_off:
+  ? ''
+  : default_value
+  metadata:
+    last_updated: '2023-11-16T10:18:22.428783'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: camera
+      metadata:
+        last_updated: '2023-11-16T10:18:22.428783'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.428783'
+      version: '1.0'
+turn_on:
+  ? ''
+  : default_value
+  metadata:
+    last_updated: '2023-11-16T10:18:22.428783'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: camera
+      metadata:
+        last_updated: '2023-11-16T10:18:22.428783'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.428783'
+      version: '1.0'

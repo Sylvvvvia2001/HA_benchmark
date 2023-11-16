@@ -1,0 +1,48 @@
+? ''
+: default_value
+metadata:
+  last_updated: '2023-11-16T10:18:23.728345'
+  version: '1.0'
+sign_in:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    metadata:
+      last_updated: '2023-11-16T10:18:23.728345'
+      version: '1.0'
+    password:
+      ? ''
+      : default_value
+      example: password
+      metadata:
+        last_updated: '2023-11-16T10:18:23.728345'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.728345'
+          version: '1.0'
+        text: null
+    username:
+      ? ''
+      : default_value
+      example: example@example.com
+      metadata:
+        last_updated: '2023-11-16T10:18:23.728345'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.728345'
+          version: '1.0'
+        text: null
+  metadata:
+    last_updated: '2023-11-16T10:18:23.728345'
+    version: '1.0'
+sign_out: null

@@ -1,0 +1,93 @@
+? ''
+: default_value
+metadata:
+  last_updated: '2023-11-16T10:18:22.460030'
+  version: '1.0'
+seek_backward:
+  ? ''
+  : default_value
+  metadata:
+    last_updated: '2023-11-16T10:18:22.460030'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: media_player
+      integration: channels
+      metadata:
+        last_updated: '2023-11-16T10:18:22.460030'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.460030'
+      version: '1.0'
+seek_by:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    metadata:
+      last_updated: '2023-11-16T10:18:22.460030'
+      version: '1.0'
+    seconds:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:22.460030'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.460030'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 3600
+          metadata:
+            last_updated: '2023-11-16T10:18:22.460030'
+            version: '1.0'
+          min: -3600
+          unit_of_measurement: seconds
+  metadata:
+    last_updated: '2023-11-16T10:18:22.460030'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: media_player
+      integration: channels
+      metadata:
+        last_updated: '2023-11-16T10:18:22.460030'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.460030'
+      version: '1.0'
+seek_forward:
+  ? ''
+  : default_value
+  metadata:
+    last_updated: '2023-11-16T10:18:22.460030'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: media_player
+      integration: channels
+      metadata:
+        last_updated: '2023-11-16T10:18:22.460030'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.460030'
+      version: '1.0'

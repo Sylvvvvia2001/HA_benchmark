@@ -1,0 +1,193 @@
+? ''
+: default_value
+metadata:
+  last_updated: '2023-11-16T10:18:23.709765'
+  version: '1.0'
+power_on: null
+select_device:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    device:
+      ? ''
+      : default_value
+      example: '"switch.hdmi_1" or "1.1.0.0" or "01:10"'
+      metadata:
+        last_updated: '2023-11-16T10:18:23.709765'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.709765'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:23.709765'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:23.709765'
+    version: '1.0'
+send_command:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    att:
+      ? ''
+      : default_value
+      example:
+      - 0
+      - 2
+      metadata:
+        last_updated: '2023-11-16T10:18:23.709765'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.709765'
+          version: '1.0'
+        object: null
+    cmd:
+      ? ''
+      : default_value
+      example: 144 or "0x90"
+      metadata:
+        last_updated: '2023-11-16T10:18:23.709765'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.709765'
+          version: '1.0'
+        text: null
+    dst:
+      ? ''
+      : default_value
+      example: 5 or "0x5"
+      metadata:
+        last_updated: '2023-11-16T10:18:23.709765'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.709765'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:23.709765'
+      version: '1.0'
+    raw:
+      ? ''
+      : default_value
+      example: '"10:36"'
+      metadata:
+        last_updated: '2023-11-16T10:18:23.709765'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.709765'
+          version: '1.0'
+        text: null
+    src:
+      ? ''
+      : default_value
+      example: 12 or "0xc"
+      metadata:
+        last_updated: '2023-11-16T10:18:23.709765'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.709765'
+          version: '1.0'
+        text: null
+  metadata:
+    last_updated: '2023-11-16T10:18:23.709765'
+    version: '1.0'
+standby: null
+update: null
+volume:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    down:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:23.709765'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.709765'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 100
+          metadata:
+            last_updated: '2023-11-16T10:18:23.709765'
+            version: '1.0'
+          min: 1
+    metadata:
+      last_updated: '2023-11-16T10:18:23.709765'
+      version: '1.0'
+    mute:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:23.709765'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.709765'
+          version: '1.0'
+        select:
+          ? ''
+          : default_value
+          metadata:
+            last_updated: '2023-11-16T10:18:23.709765'
+            version: '1.0'
+          options:
+          - 'off'
+          - 'on'
+          - toggle
+    up:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:23.709765'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.709765'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 100
+          metadata:
+            last_updated: '2023-11-16T10:18:23.709765'
+            version: '1.0'
+          min: 1
+  metadata:
+    last_updated: '2023-11-16T10:18:23.709765'
+    version: '1.0'

@@ -1,0 +1,101 @@
+? ''
+: default_value
+alarm_keypress:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    entity_id:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:23.025551'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        entity:
+          ? ''
+          : default_value
+          domain: alarm_control_panel
+          integration: envisalink
+          metadata:
+            last_updated: '2023-11-16T10:18:23.025551'
+            version: '1.0'
+        metadata:
+          last_updated: '2023-11-16T10:18:23.025551'
+          version: '1.0'
+    keypress:
+      ? ''
+      : default_value
+      example: '*71'
+      metadata:
+        last_updated: '2023-11-16T10:18:23.025551'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.025551'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:23.025551'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:23.025551'
+    version: '1.0'
+invoke_custom_function:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    metadata:
+      last_updated: '2023-11-16T10:18:23.025551'
+      version: '1.0'
+    partition:
+      ? ''
+      : default_value
+      example: '1'
+      metadata:
+        last_updated: '2023-11-16T10:18:23.025551'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.025551'
+          version: '1.0'
+        text: null
+    pgm:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:23.025551'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.025551'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 4
+          metadata:
+            last_updated: '2023-11-16T10:18:23.025551'
+            version: '1.0'
+          min: 1
+  metadata:
+    last_updated: '2023-11-16T10:18:23.025551'
+    version: '1.0'
+metadata:
+  last_updated: '2023-11-16T10:18:23.025551'
+  version: '1.0'

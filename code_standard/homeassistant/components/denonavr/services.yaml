@@ -1,0 +1,106 @@
+? ''
+: default_value
+get_command:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    command:
+      ? ''
+      : default_value
+      example: /goform/formiPhoneAppDirect.xml?RCKSK0410370
+      metadata:
+        last_updated: '2023-11-16T10:18:22.694688'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.694688'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:22.694688'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:22.694688'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: media_player
+      integration: denonavr
+      metadata:
+        last_updated: '2023-11-16T10:18:22.694688'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.694688'
+      version: '1.0'
+metadata:
+  last_updated: '2023-11-16T10:18:22.694688'
+  version: '1.0'
+set_dynamic_eq:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    dynamic_eq:
+      ? ''
+      : default_value
+      default: true
+      metadata:
+        last_updated: '2023-11-16T10:18:22.694688'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        boolean: null
+        metadata:
+          last_updated: '2023-11-16T10:18:22.694688'
+          version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.694688'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:22.694688'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: media_player
+      integration: denonavr
+      metadata:
+        last_updated: '2023-11-16T10:18:22.694688'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.694688'
+      version: '1.0'
+update_audyssey:
+  ? ''
+  : default_value
+  metadata:
+    last_updated: '2023-11-16T10:18:22.694688'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: media_player
+      integration: denonavr
+      metadata:
+        last_updated: '2023-11-16T10:18:22.694688'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.694688'
+      version: '1.0'

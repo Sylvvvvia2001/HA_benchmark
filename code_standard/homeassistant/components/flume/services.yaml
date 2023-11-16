@@ -1,0 +1,37 @@
+? ''
+: default_value
+list_notifications:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    config_entry:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:23.228868'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        config_entry:
+          ? ''
+          : default_value
+          integration: flume
+          metadata:
+            last_updated: '2023-11-16T10:18:23.228868'
+            version: '1.0'
+        metadata:
+          last_updated: '2023-11-16T10:18:23.228868'
+          version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:23.228868'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:23.228868'
+    version: '1.0'
+metadata:
+  last_updated: '2023-11-16T10:18:23.228868'
+  version: '1.0'

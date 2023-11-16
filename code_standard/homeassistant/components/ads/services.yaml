@@ -1,0 +1,79 @@
+? ''
+: default_value
+metadata:
+  last_updated: '2023-11-16T10:18:22.022531'
+  version: '1.0'
+write_data_by_name:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    adstype:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:22.022531'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.022531'
+          version: '1.0'
+        select:
+          ? ''
+          : default_value
+          metadata:
+            last_updated: '2023-11-16T10:18:22.022531'
+            version: '1.0'
+          options:
+          - bool
+          - byte
+          - dint
+          - int
+          - udint
+          - uint
+    adsvar:
+      ? ''
+      : default_value
+      example: .global_var
+      metadata:
+        last_updated: '2023-11-16T10:18:22.022531'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.022531'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:22.022531'
+      version: '1.0'
+    value:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:22.022531'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.022531'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 10000
+          metadata:
+            last_updated: '2023-11-16T10:18:22.022531'
+            version: '1.0'
+          min: 0
+  metadata:
+    last_updated: '2023-11-16T10:18:22.022531'
+    version: '1.0'

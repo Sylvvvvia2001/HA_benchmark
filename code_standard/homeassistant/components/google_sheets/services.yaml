@@ -1,0 +1,66 @@
+? ''
+: default_value
+append_sheet:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    config_entry:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:23.526021'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        config_entry:
+          ? ''
+          : default_value
+          integration: google_sheets
+          metadata:
+            last_updated: '2023-11-16T10:18:23.526021'
+            version: '1.0'
+        metadata:
+          last_updated: '2023-11-16T10:18:23.526021'
+          version: '1.0'
+    data:
+      ? ''
+      : default_value
+      example: '{"hello": world, "cool": True, "count": 5}'
+      metadata:
+        last_updated: '2023-11-16T10:18:23.526021'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.526021'
+          version: '1.0'
+        object: null
+    metadata:
+      last_updated: '2023-11-16T10:18:23.526021'
+      version: '1.0'
+    worksheet:
+      ? ''
+      : default_value
+      example: Sheet1
+      metadata:
+        last_updated: '2023-11-16T10:18:23.526021'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.526021'
+          version: '1.0'
+        text: null
+  metadata:
+    last_updated: '2023-11-16T10:18:23.526021'
+    version: '1.0'
+metadata:
+  last_updated: '2023-11-16T10:18:23.526021'
+  version: '1.0'

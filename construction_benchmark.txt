@@ -1,0 +1,27 @@
+ha_benchmark/
+│
+├── fetch_plugins/              # 用于从GitHub获取插件代码的模块
+│   ├── __init__.py
+│   ├── plugin_fetcher.py
+│   └── requirements.txt
+│
+├── standardization/            # 用于标准化插件代码的模块
+│   ├── __init__.py
+│   ├── discover_plugins.py     # 识别并选择需要标准化的插件
+│   ├── style_standardizer.py   # 应用统一的代码风格和格式
+│   └── config_standardizer.py  # 标准化插件的配置文件结构
+│   └── naming_standardizer.py  # 标准化接口和方法的命名规则
+│   └── logging_standardizer.py # 统一错误处理和日志记录的方式
+│   └── main.py
+│
+├── testing/                    # 用于定义和执行测试流程的模块
+│   ├── __init__.py
+│   ├── test_manager.py
+│   ├── test_cases.py
+│   └── requirements.txt
+│
+├── utils/                      # 工具模块，提供日志和其他通用工具
+│   ├── __init__.py
+│   └── logger.py
+│
+└── main.py                     # 主执行文件，整合上述模块的功能

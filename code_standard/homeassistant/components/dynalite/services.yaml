@@ -1,0 +1,141 @@
+? ''
+: default_value
+metadata:
+  last_updated: '2023-11-16T10:18:22.804110'
+  version: '1.0'
+request_area_preset:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    area:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:22.804110'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.804110'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 9999
+          metadata:
+            last_updated: '2023-11-16T10:18:22.804110'
+            version: '1.0'
+          min: 1
+    channel:
+      ? ''
+      : default_value
+      default: 1
+      metadata:
+        last_updated: '2023-11-16T10:18:22.804110'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.804110'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 9999
+          metadata:
+            last_updated: '2023-11-16T10:18:22.804110'
+            version: '1.0'
+          min: 1
+    host:
+      ? ''
+      : default_value
+      example: 192.168.0.101
+      metadata:
+        last_updated: '2023-11-16T10:18:22.804110'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.804110'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:22.804110'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:22.804110'
+    version: '1.0'
+request_channel_level:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    area:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:22.804110'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.804110'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 9999
+          metadata:
+            last_updated: '2023-11-16T10:18:22.804110'
+            version: '1.0'
+          min: 1
+    channel:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:22.804110'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.804110'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 9999
+          metadata:
+            last_updated: '2023-11-16T10:18:22.804110'
+            version: '1.0'
+          min: 1
+    host:
+      ? ''
+      : default_value
+      example: 192.168.0.101
+      metadata:
+        last_updated: '2023-11-16T10:18:22.804110'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.804110'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:22.804110'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:22.804110'
+    version: '1.0'

@@ -1,0 +1,216 @@
+? ''
+: default_value
+display_message:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    account:
+      ? ''
+      : default_value
+      example: steve@apple.com
+      metadata:
+        last_updated: '2023-11-16T10:18:24.108226'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:24.108226'
+          version: '1.0'
+        text: null
+    device_name:
+      ? ''
+      : default_value
+      example: stevesiphone
+      metadata:
+        last_updated: '2023-11-16T10:18:24.108226'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:24.108226'
+          version: '1.0'
+        text: null
+    message:
+      ? ''
+      : default_value
+      example: Hey Steve !
+      metadata:
+        last_updated: '2023-11-16T10:18:24.108226'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:24.108226'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:24.108226'
+      version: '1.0'
+    sound:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:24.108226'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        boolean: null
+        metadata:
+          last_updated: '2023-11-16T10:18:24.108226'
+          version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:24.108226'
+    version: '1.0'
+lost_device:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    account:
+      ? ''
+      : default_value
+      example: steve@apple.com
+      metadata:
+        last_updated: '2023-11-16T10:18:24.108226'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:24.108226'
+          version: '1.0'
+        text: null
+    device_name:
+      ? ''
+      : default_value
+      example: stevesiphone
+      metadata:
+        last_updated: '2023-11-16T10:18:24.108226'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:24.108226'
+          version: '1.0'
+        text: null
+    message:
+      ? ''
+      : default_value
+      example: Call me
+      metadata:
+        last_updated: '2023-11-16T10:18:24.108226'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:24.108226'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:24.108226'
+      version: '1.0'
+    number:
+      ? ''
+      : default_value
+      example: '+33450020100'
+      metadata:
+        last_updated: '2023-11-16T10:18:24.108226'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:24.108226'
+          version: '1.0'
+        text: null
+  metadata:
+    last_updated: '2023-11-16T10:18:24.108226'
+    version: '1.0'
+metadata:
+  last_updated: '2023-11-16T10:18:24.108226'
+  version: '1.0'
+play_sound:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    account:
+      ? ''
+      : default_value
+      example: steve@apple.com
+      metadata:
+        last_updated: '2023-11-16T10:18:24.104172'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:24.104172'
+          version: '1.0'
+        text: null
+    device_name:
+      ? ''
+      : default_value
+      example: stevesiphone
+      metadata:
+        last_updated: '2023-11-16T10:18:24.104172'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:24.104172'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:24.108226'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:24.108226'
+    version: '1.0'
+update:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    account:
+      ? ''
+      : default_value
+      example: steve@apple.com
+      metadata:
+        last_updated: '2023-11-16T10:18:24.104172'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:24.104172'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:24.104172'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:24.104172'
+    version: '1.0'

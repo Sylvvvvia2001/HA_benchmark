@@ -1,0 +1,290 @@
+? ''
+: default_value
+alarm_arm_away:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    code:
+      ? ''
+      : default_value
+      example: '1234'
+      metadata:
+        last_updated: '2023-11-16T10:18:22.070059'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.070059'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:22.070059'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:22.070059'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: alarm_control_panel
+      metadata:
+        last_updated: '2023-11-16T10:18:22.070059'
+        version: '1.0'
+      supported_features:
+      - alarm_control_panel.AlarmControlPanelEntityFeature.ARM_AWAY
+    metadata:
+      last_updated: '2023-11-16T10:18:22.070059'
+      version: '1.0'
+alarm_arm_custom_bypass:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    code:
+      ? ''
+      : default_value
+      example: '1234'
+      metadata:
+        last_updated: '2023-11-16T10:18:22.070059'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.070059'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:22.070059'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:22.070059'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: alarm_control_panel
+      metadata:
+        last_updated: '2023-11-16T10:18:22.070059'
+        version: '1.0'
+      supported_features:
+      - alarm_control_panel.AlarmControlPanelEntityFeature.ARM_CUSTOM_BYPASS
+    metadata:
+      last_updated: '2023-11-16T10:18:22.070059'
+      version: '1.0'
+alarm_arm_home:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    code:
+      ? ''
+      : default_value
+      example: '1234'
+      metadata:
+        last_updated: '2023-11-16T10:18:22.070059'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.070059'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:22.070059'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:22.070059'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: alarm_control_panel
+      metadata:
+        last_updated: '2023-11-16T10:18:22.070059'
+        version: '1.0'
+      supported_features:
+      - alarm_control_panel.AlarmControlPanelEntityFeature.ARM_HOME
+    metadata:
+      last_updated: '2023-11-16T10:18:22.070059'
+      version: '1.0'
+alarm_arm_night:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    code:
+      ? ''
+      : default_value
+      example: '1234'
+      metadata:
+        last_updated: '2023-11-16T10:18:22.070059'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.070059'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:22.070059'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:22.070059'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: alarm_control_panel
+      metadata:
+        last_updated: '2023-11-16T10:18:22.070059'
+        version: '1.0'
+      supported_features:
+      - alarm_control_panel.AlarmControlPanelEntityFeature.ARM_NIGHT
+    metadata:
+      last_updated: '2023-11-16T10:18:22.070059'
+      version: '1.0'
+alarm_arm_vacation:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    code:
+      ? ''
+      : default_value
+      example: '1234'
+      metadata:
+        last_updated: '2023-11-16T10:18:22.070059'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.070059'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:22.070059'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:22.070059'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: alarm_control_panel
+      metadata:
+        last_updated: '2023-11-16T10:18:22.070059'
+        version: '1.0'
+      supported_features:
+      - alarm_control_panel.AlarmControlPanelEntityFeature.ARM_VACATION
+    metadata:
+      last_updated: '2023-11-16T10:18:22.070059'
+      version: '1.0'
+alarm_disarm:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    code:
+      ? ''
+      : default_value
+      example: '1234'
+      metadata:
+        last_updated: '2023-11-16T10:18:22.070059'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.070059'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:22.070059'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:22.070059'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: alarm_control_panel
+      metadata:
+        last_updated: '2023-11-16T10:18:22.070059'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.070059'
+      version: '1.0'
+alarm_trigger:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    code:
+      ? ''
+      : default_value
+      example: '1234'
+      metadata:
+        last_updated: '2023-11-16T10:18:22.070059'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.070059'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:22.070059'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:22.070059'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: alarm_control_panel
+      metadata:
+        last_updated: '2023-11-16T10:18:22.070059'
+        version: '1.0'
+      supported_features:
+      - alarm_control_panel.AlarmControlPanelEntityFeature.TRIGGER
+    metadata:
+      last_updated: '2023-11-16T10:18:22.070059'
+      version: '1.0'
+metadata:
+  last_updated: '2023-11-16T10:18:22.070059'
+  version: '1.0'

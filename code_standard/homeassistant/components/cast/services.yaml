@@ -1,0 +1,67 @@
+? ''
+: default_value
+metadata:
+  last_updated: '2023-11-16T10:18:22.444406'
+  version: '1.0'
+show_lovelace_view:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    dashboard_path:
+      ? ''
+      : default_value
+      example: lovelace-cast
+      metadata:
+        last_updated: '2023-11-16T10:18:22.444406'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.444406'
+          version: '1.0'
+        text: null
+    entity_id:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:22.444406'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        entity:
+          ? ''
+          : default_value
+          domain: media_player
+          integration: cast
+          metadata:
+            last_updated: '2023-11-16T10:18:22.444406'
+            version: '1.0'
+        metadata:
+          last_updated: '2023-11-16T10:18:22.444406'
+          version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.444406'
+      version: '1.0'
+    view_path:
+      ? ''
+      : default_value
+      example: downstairs
+      metadata:
+        last_updated: '2023-11-16T10:18:22.444406'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.444406'
+          version: '1.0'
+        text: null
+  metadata:
+    last_updated: '2023-11-16T10:18:22.444406'
+    version: '1.0'

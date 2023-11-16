@@ -1,0 +1,101 @@
+? ''
+: default_value
+metadata:
+  last_updated: '2023-11-16T10:18:23.185462'
+  version: '1.0'
+restart:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    entity_id:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:23.185462'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        entity:
+          ? ''
+          : default_value
+          domain: binary_sensor
+          integration: ffmpeg
+          metadata:
+            last_updated: '2023-11-16T10:18:23.185462'
+            version: '1.0'
+        metadata:
+          last_updated: '2023-11-16T10:18:23.185462'
+          version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:23.185462'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:23.185462'
+    version: '1.0'
+start:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    entity_id:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:23.185462'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        entity:
+          ? ''
+          : default_value
+          domain: binary_sensor
+          integration: ffmpeg
+          metadata:
+            last_updated: '2023-11-16T10:18:23.185462'
+            version: '1.0'
+        metadata:
+          last_updated: '2023-11-16T10:18:23.185462'
+          version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:23.185462'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:23.185462'
+    version: '1.0'
+stop:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    entity_id:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:23.185462'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        entity:
+          ? ''
+          : default_value
+          domain: binary_sensor
+          integration: ffmpeg
+          metadata:
+            last_updated: '2023-11-16T10:18:23.185462'
+            version: '1.0'
+        metadata:
+          last_updated: '2023-11-16T10:18:23.185462'
+          version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:23.185462'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:23.185462'
+    version: '1.0'

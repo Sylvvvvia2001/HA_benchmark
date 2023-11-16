@@ -1,0 +1,54 @@
+? ''
+: default_value
+metadata:
+  last_updated: '2023-11-16T10:18:22.261671'
+  version: '1.0'
+set_all_zones:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    entity_id:
+      ? ''
+      : default_value
+      example: media_player.zone_1
+      metadata:
+        last_updated: '2023-11-16T10:18:22.261671'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        entity:
+          ? ''
+          : default_value
+          domain: media_player
+          integration: blackbird
+          metadata:
+            last_updated: '2023-11-16T10:18:22.261671'
+            version: '1.0'
+        metadata:
+          last_updated: '2023-11-16T10:18:22.261671'
+          version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.261671'
+      version: '1.0'
+    source:
+      ? ''
+      : default_value
+      example: Source 1
+      metadata:
+        last_updated: '2023-11-16T10:18:22.261671'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.261671'
+          version: '1.0'
+        text: null
+  metadata:
+    last_updated: '2023-11-16T10:18:22.261671'
+    version: '1.0'

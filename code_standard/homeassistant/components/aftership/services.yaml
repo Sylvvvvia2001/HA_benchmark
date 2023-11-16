@@ -1,0 +1,101 @@
+? ''
+: default_value
+add_tracking:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    metadata:
+      last_updated: '2023-11-16T10:18:22.038661'
+      version: '1.0'
+    slug:
+      ? ''
+      : default_value
+      example: USPS
+      metadata:
+        last_updated: '2023-11-16T10:18:22.038661'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.038661'
+          version: '1.0'
+        text: null
+    title:
+      ? ''
+      : default_value
+      example: Laptop
+      metadata:
+        last_updated: '2023-11-16T10:18:22.038661'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.038661'
+          version: '1.0'
+        text: null
+    tracking_number:
+      ? ''
+      : default_value
+      example: '123456789'
+      metadata:
+        last_updated: '2023-11-16T10:18:22.038661'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.038661'
+          version: '1.0'
+        text: null
+  metadata:
+    last_updated: '2023-11-16T10:18:22.038661'
+    version: '1.0'
+metadata:
+  last_updated: '2023-11-16T10:18:22.038661'
+  version: '1.0'
+remove_tracking:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    metadata:
+      last_updated: '2023-11-16T10:18:22.038661'
+      version: '1.0'
+    slug:
+      ? ''
+      : default_value
+      example: USPS
+      metadata:
+        last_updated: '2023-11-16T10:18:22.038661'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.038661'
+          version: '1.0'
+        text: null
+    tracking_number:
+      ? ''
+      : default_value
+      example: '123456789'
+      metadata:
+        last_updated: '2023-11-16T10:18:22.038661'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.038661'
+          version: '1.0'
+        text: null
+  metadata:
+    last_updated: '2023-11-16T10:18:22.038661'
+    version: '1.0'

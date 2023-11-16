@@ -1,0 +1,348 @@
+? ''
+: default_value
+metadata:
+  last_updated: '2023-11-16T10:18:23.275755'
+  version: '1.0'
+set_custom_effect:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    colors:
+      ? ''
+      : default_value
+      example: '- [255,0,0]
+
+        - [0,255,0]
+
+        - [0,0,255]
+
+        '
+      metadata:
+        last_updated: '2023-11-16T10:18:23.275755'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.275755'
+          version: '1.0'
+        object: null
+    metadata:
+      last_updated: '2023-11-16T10:18:23.275755'
+      version: '1.0'
+    speed_pct:
+      ? ''
+      : default_value
+      default: 50
+      example: 80
+      metadata:
+        last_updated: '2023-11-16T10:18:23.275755'
+        version: '1.0'
+      required: false
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.275755'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 100
+          metadata:
+            last_updated: '2023-11-16T10:18:23.275755'
+            version: '1.0'
+          min: 1
+          step: 1
+          unit_of_measurement: '%'
+    transition:
+      ? ''
+      : default_value
+      default: gradual
+      example: jump
+      metadata:
+        last_updated: '2023-11-16T10:18:23.275755'
+        version: '1.0'
+      required: false
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.275755'
+          version: '1.0'
+        select:
+          ? ''
+          : default_value
+          metadata:
+            last_updated: '2023-11-16T10:18:23.275755'
+            version: '1.0'
+          options:
+          - gradual
+          - jump
+          - strobe
+  metadata:
+    last_updated: '2023-11-16T10:18:23.275755'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: light
+      integration: flux_led
+      metadata:
+        last_updated: '2023-11-16T10:18:23.275755'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:23.275755'
+      version: '1.0'
+set_music_mode:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    background_color:
+      ? ''
+      : default_value
+      example: '[255, 100, 100]'
+      metadata:
+        last_updated: '2023-11-16T10:18:23.275755'
+        version: '1.0'
+      required: false
+      selector:
+        ? ''
+        : default_value
+        color_rgb: null
+        metadata:
+          last_updated: '2023-11-16T10:18:23.275755'
+          version: '1.0'
+    brightness:
+      ? ''
+      : default_value
+      default: 100
+      example: 80
+      metadata:
+        last_updated: '2023-11-16T10:18:23.275755'
+        version: '1.0'
+      required: false
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.275755'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 100
+          metadata:
+            last_updated: '2023-11-16T10:18:23.275755'
+            version: '1.0'
+          min: 1
+          step: 1
+          unit_of_measurement: '%'
+    effect:
+      ? ''
+      : default_value
+      default: 1
+      example: 1
+      metadata:
+        last_updated: '2023-11-16T10:18:23.275755'
+        version: '1.0'
+      required: false
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.275755'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 16
+          metadata:
+            last_updated: '2023-11-16T10:18:23.275755'
+            version: '1.0'
+          min: 0
+          step: 1
+    foreground_color:
+      ? ''
+      : default_value
+      example: '[255, 100, 100]'
+      metadata:
+        last_updated: '2023-11-16T10:18:23.275755'
+        version: '1.0'
+      required: false
+      selector:
+        ? ''
+        : default_value
+        color_rgb: null
+        metadata:
+          last_updated: '2023-11-16T10:18:23.275755'
+          version: '1.0'
+    light_screen:
+      ? ''
+      : default_value
+      default: false
+      metadata:
+        last_updated: '2023-11-16T10:18:23.275755'
+        version: '1.0'
+      required: false
+      selector:
+        ? ''
+        : default_value
+        boolean: null
+        metadata:
+          last_updated: '2023-11-16T10:18:23.275755'
+          version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:23.275755'
+      version: '1.0'
+    sensitivity:
+      ? ''
+      : default_value
+      default: 100
+      example: 80
+      metadata:
+        last_updated: '2023-11-16T10:18:23.275755'
+        version: '1.0'
+      required: false
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.275755'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 100
+          metadata:
+            last_updated: '2023-11-16T10:18:23.275755'
+            version: '1.0'
+          min: 1
+          step: 1
+          unit_of_measurement: '%'
+  metadata:
+    last_updated: '2023-11-16T10:18:23.275755'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: light
+      integration: flux_led
+      metadata:
+        last_updated: '2023-11-16T10:18:23.275755'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:23.275755'
+      version: '1.0'
+set_zones:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    colors:
+      ? ''
+      : default_value
+      example: '- [255,0,0]
+
+        - [0,255,0]
+
+        - [0,0,255]
+
+        - [255,255,255]
+
+        '
+      metadata:
+        last_updated: '2023-11-16T10:18:23.275755'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.275755'
+          version: '1.0'
+        object: null
+    effect:
+      ? ''
+      : default_value
+      default: static
+      example: running_water
+      metadata:
+        last_updated: '2023-11-16T10:18:23.275755'
+        version: '1.0'
+      required: false
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.275755'
+          version: '1.0'
+        select:
+          ? ''
+          : default_value
+          metadata:
+            last_updated: '2023-11-16T10:18:23.275755'
+            version: '1.0'
+          options:
+          - breathing
+          - jump
+          - running_water
+          - static
+          - strobe
+    metadata:
+      last_updated: '2023-11-16T10:18:23.275755'
+      version: '1.0'
+    speed_pct:
+      ? ''
+      : default_value
+      default: 50
+      example: 80
+      metadata:
+        last_updated: '2023-11-16T10:18:23.275755'
+        version: '1.0'
+      required: false
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.275755'
+          version: '1.0'
+        number:
+          ? ''
+          : default_value
+          max: 100
+          metadata:
+            last_updated: '2023-11-16T10:18:23.275755'
+            version: '1.0'
+          min: 1
+          step: 1
+          unit_of_measurement: '%'
+  metadata:
+    last_updated: '2023-11-16T10:18:23.275755'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: light
+      integration: flux_led
+      metadata:
+        last_updated: '2023-11-16T10:18:23.275755'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:23.275755'
+      version: '1.0'

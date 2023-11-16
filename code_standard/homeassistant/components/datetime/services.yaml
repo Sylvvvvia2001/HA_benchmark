@@ -1,0 +1,45 @@
+? ''
+: default_value
+metadata:
+  last_updated: '2023-11-16T10:18:22.647811'
+  version: '1.0'
+set_value:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    datetime:
+      ? ''
+      : default_value
+      example: '2023-10-07T21:35:22'
+      metadata:
+        last_updated: '2023-11-16T10:18:22.647811'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        datetime: null
+        metadata:
+          last_updated: '2023-11-16T10:18:22.647811'
+          version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.647811'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:22.647811'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: datetime
+      metadata:
+        last_updated: '2023-11-16T10:18:22.647811'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.647811'
+      version: '1.0'

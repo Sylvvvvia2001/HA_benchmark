@@ -1,0 +1,136 @@
+? ''
+: default_value
+metadata:
+  last_updated: '2023-11-16T10:18:23.214821'
+  version: '1.0'
+run_health_test:
+  ? ''
+  : default_value
+  metadata:
+    last_updated: '2023-11-16T10:18:23.214821'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: switch
+      integration: flo
+      metadata:
+        last_updated: '2023-11-16T10:18:23.214821'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:23.214821'
+      version: '1.0'
+set_away_mode:
+  ? ''
+  : default_value
+  metadata:
+    last_updated: '2023-11-16T10:18:23.214821'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: switch
+      integration: flo
+      metadata:
+        last_updated: '2023-11-16T10:18:23.214821'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:23.214821'
+      version: '1.0'
+set_home_mode:
+  ? ''
+  : default_value
+  metadata:
+    last_updated: '2023-11-16T10:18:23.214821'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: switch
+      integration: flo
+      metadata:
+        last_updated: '2023-11-16T10:18:23.214821'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:23.214821'
+      version: '1.0'
+set_sleep_mode:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    metadata:
+      last_updated: '2023-11-16T10:18:23.214821'
+      version: '1.0'
+    revert_to_mode:
+      ? ''
+      : default_value
+      default: true
+      metadata:
+        last_updated: '2023-11-16T10:18:23.214821'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.214821'
+          version: '1.0'
+        select:
+          ? ''
+          : default_value
+          metadata:
+            last_updated: '2023-11-16T10:18:23.214821'
+            version: '1.0'
+          options:
+          - away
+          - home
+    sleep_minutes:
+      ? ''
+      : default_value
+      default: true
+      metadata:
+        last_updated: '2023-11-16T10:18:23.214821'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.214821'
+          version: '1.0'
+        select:
+          ? ''
+          : default_value
+          metadata:
+            last_updated: '2023-11-16T10:18:23.214821'
+            version: '1.0'
+          options:
+          - '120'
+          - '1440'
+          - '4320'
+  metadata:
+    last_updated: '2023-11-16T10:18:23.214821'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: switch
+      integration: flo
+      metadata:
+        last_updated: '2023-11-16T10:18:23.214821'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:23.214821'
+      version: '1.0'

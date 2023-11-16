@@ -1,0 +1,87 @@
+? ''
+: default_value
+alarm_keypress:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    keypress:
+      ? ''
+      : default_value
+      example: '*71'
+      metadata:
+        last_updated: '2023-11-16T10:18:22.054416'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.054416'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:22.054416'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:22.054416'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: alarm_control_panel
+      integration: alarmdecoder
+      metadata:
+        last_updated: '2023-11-16T10:18:22.054416'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.054416'
+      version: '1.0'
+alarm_toggle_chime:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    code:
+      ? ''
+      : default_value
+      example: 1234
+      metadata:
+        last_updated: '2023-11-16T10:18:22.054416'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:22.054416'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:22.054416'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:22.054416'
+    version: '1.0'
+  target:
+    ? ''
+    : default_value
+    entity:
+      ? ''
+      : default_value
+      domain: alarm_control_panel
+      integration: alarmdecoder
+      metadata:
+        last_updated: '2023-11-16T10:18:22.054416'
+        version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.054416'
+      version: '1.0'
+metadata:
+  last_updated: '2023-11-16T10:18:22.054416'
+  version: '1.0'

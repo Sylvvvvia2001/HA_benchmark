@@ -1,0 +1,61 @@
+? ''
+: default_value
+api_call:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    args:
+      ? ''
+      : default_value
+      example: '{"text": "Use API from Home Assistant", "type": "todo"}'
+      metadata:
+        last_updated: '2023-11-16T10:18:23.588488'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.588488'
+          version: '1.0'
+        object: null
+    metadata:
+      last_updated: '2023-11-16T10:18:23.588488'
+      version: '1.0'
+    name:
+      ? ''
+      : default_value
+      example: xxxNotAValidNickxxx
+      metadata:
+        last_updated: '2023-11-16T10:18:23.588488'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.588488'
+          version: '1.0'
+        text: null
+    path:
+      ? ''
+      : default_value
+      example: '["tasks", "user", "post"]'
+      metadata:
+        last_updated: '2023-11-16T10:18:23.588488'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:23.588488'
+          version: '1.0'
+        object: null
+  metadata:
+    last_updated: '2023-11-16T10:18:23.588488'
+    version: '1.0'
+metadata:
+  last_updated: '2023-11-16T10:18:23.588488'
+  version: '1.0'

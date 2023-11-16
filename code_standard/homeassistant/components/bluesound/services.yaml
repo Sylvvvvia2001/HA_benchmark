@@ -1,0 +1,154 @@
+? ''
+: default_value
+clear_sleep_timer:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    entity_id:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:22.303823'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        entity:
+          ? ''
+          : default_value
+          domain: media_player
+          integration: bluesound
+          metadata:
+            last_updated: '2023-11-16T10:18:22.303823'
+            version: '1.0'
+        metadata:
+          last_updated: '2023-11-16T10:18:22.303823'
+          version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.303823'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:22.303823'
+    version: '1.0'
+join:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    entity_id:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:22.303823'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        entity:
+          ? ''
+          : default_value
+          domain: media_player
+          integration: bluesound
+          metadata:
+            last_updated: '2023-11-16T10:18:22.303823'
+            version: '1.0'
+        metadata:
+          last_updated: '2023-11-16T10:18:22.303823'
+          version: '1.0'
+    master:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:22.303823'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        entity:
+          ? ''
+          : default_value
+          domain: media_player
+          integration: bluesound
+          metadata:
+            last_updated: '2023-11-16T10:18:22.303823'
+            version: '1.0'
+        metadata:
+          last_updated: '2023-11-16T10:18:22.303823'
+          version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.303823'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:22.303823'
+    version: '1.0'
+metadata:
+  last_updated: '2023-11-16T10:18:22.303823'
+  version: '1.0'
+set_sleep_timer:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    entity_id:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:22.303823'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        entity:
+          ? ''
+          : default_value
+          domain: media_player
+          integration: bluesound
+          metadata:
+            last_updated: '2023-11-16T10:18:22.303823'
+            version: '1.0'
+        metadata:
+          last_updated: '2023-11-16T10:18:22.303823'
+          version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.303823'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:22.303823'
+    version: '1.0'
+unjoin:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    entity_id:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:22.303823'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        entity:
+          ? ''
+          : default_value
+          domain: media_player
+          integration: bluesound
+          metadata:
+            last_updated: '2023-11-16T10:18:22.303823'
+            version: '1.0'
+        metadata:
+          last_updated: '2023-11-16T10:18:22.303823'
+          version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:22.303823'
+      version: '1.0'
+  metadata:
+    last_updated: '2023-11-16T10:18:22.303823'
+    version: '1.0'

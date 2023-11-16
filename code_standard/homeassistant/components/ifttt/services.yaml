@@ -1,0 +1,121 @@
+? ''
+: default_value
+metadata:
+  last_updated: '2023-11-16T10:18:24.126374'
+  version: '1.0'
+push_alarm_state:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    entity_id:
+      ? ''
+      : default_value
+      metadata:
+        last_updated: '2023-11-16T10:18:24.126374'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        entity:
+          ? ''
+          : default_value
+          domain: alarm_control_panel
+          metadata:
+            last_updated: '2023-11-16T10:18:24.126374'
+            version: '1.0'
+        metadata:
+          last_updated: '2023-11-16T10:18:24.126374'
+          version: '1.0'
+    metadata:
+      last_updated: '2023-11-16T10:18:24.126374'
+      version: '1.0'
+    state:
+      ? ''
+      : default_value
+      example: armed_night
+      metadata:
+        last_updated: '2023-11-16T10:18:24.126374'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:24.126374'
+          version: '1.0'
+        text: null
+  metadata:
+    last_updated: '2023-11-16T10:18:24.126374'
+    version: '1.0'
+trigger:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    event:
+      ? ''
+      : default_value
+      example: MY_HA_EVENT
+      metadata:
+        last_updated: '2023-11-16T10:18:24.126374'
+        version: '1.0'
+      required: true
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:24.126374'
+          version: '1.0'
+        text: null
+    metadata:
+      last_updated: '2023-11-16T10:18:24.126374'
+      version: '1.0'
+    value1:
+      ? ''
+      : default_value
+      example: Hello World
+      metadata:
+        last_updated: '2023-11-16T10:18:24.126374'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:24.126374'
+          version: '1.0'
+        text: null
+    value2:
+      ? ''
+      : default_value
+      example: some additional data
+      metadata:
+        last_updated: '2023-11-16T10:18:24.126374'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:24.126374'
+          version: '1.0'
+        text: null
+    value3:
+      ? ''
+      : default_value
+      example: even more data
+      metadata:
+        last_updated: '2023-11-16T10:18:24.126374'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:24.126374'
+          version: '1.0'
+        text: null
+  metadata:
+    last_updated: '2023-11-16T10:18:24.126374'
+    version: '1.0'

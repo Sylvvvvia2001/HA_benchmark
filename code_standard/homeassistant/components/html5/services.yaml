@@ -1,0 +1,47 @@
+? ''
+: default_value
+dismiss:
+  ? ''
+  : default_value
+  fields:
+    ? ''
+    : default_value
+    data:
+      ? ''
+      : default_value
+      example: '{ "tag": "tagname" }'
+      metadata:
+        last_updated: '2023-11-16T10:18:24.000343'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:24.000343'
+          version: '1.0'
+        object: null
+    metadata:
+      last_updated: '2023-11-16T10:18:24.000343'
+      version: '1.0'
+    target:
+      ? ''
+      : default_value
+      example:
+      - my_phone
+      - my_tablet
+      metadata:
+        last_updated: '2023-11-16T10:18:24.000343'
+        version: '1.0'
+      selector:
+        ? ''
+        : default_value
+        metadata:
+          last_updated: '2023-11-16T10:18:24.000343'
+          version: '1.0'
+        object: null
+  metadata:
+    last_updated: '2023-11-16T10:18:24.000343'
+    version: '1.0'
+metadata:
+  last_updated: '2023-11-16T10:18:24.000343'
+  version: '1.0'
